@@ -5,11 +5,12 @@ import os
 import glob
 import string
 import csv
+import sys
 c = bitly_api.Connection('o_2epmte81bk','R_2fd504831c77c1ecf9518e6bcbcbb92a')
 
 import lxml.html
  
-stop_words = set(line.strip() for line in open('../requirements./stopwords.txt'))
+stop_words = set(line.strip() for line in open('../requirements/stopwords.txt'))
 STATES = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NV', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'WA', 'WV', 'WI', 'WY']
     
 def remove_white_punc(str):
@@ -48,6 +49,7 @@ def op_line(line, low, medium, high, popular, insane):
     content = title + para
     content = filter_stop(content)
     if len(content) > 6:
+      sys.stdout.write(".")
       if 100 > clicks:
         low.writerow([url,location,clicks,' '.join(content)])
       else:
@@ -57,7 +59,7 @@ def op_line(line, low, medium, high, popular, insane):
           if 10000 > clicks and 1000 < clicks:
             high.writerow([url,location,clicks,' '.join(content)])
           else:
-            if 50000 > clicks and 25000 < clicks:
+            if 50000 > clicks and 10000 < clicks:
               popular.writerow([url,location,clicks,' '.join(content)])
             else:
               if clicks > 50000:
