@@ -1,3 +1,7 @@
+# organizes data by state, removes all repeated articles, and counts 
+# frequency of clicks by a given state.  Also assembles global tsv files
+# not broken down by state as "total"
+
 import csv
 import os
 
@@ -44,13 +48,13 @@ def main():
           continue
         else:
           global_set.add(hash)   
-          global_writer.writerow([url,clicks,content])    
+          global_writer.writerow([hash,clicks,'US',content])    
     except:
       continue
     for state in states:
       for k,v in d[state]['hash'].iteritems():
         c = d[state]['content'][k]
-        d[state]['writer'].writerow([k,v,c])
+        d[state]['writer'].writerow([k,v,state,c])
 
 if __name__ == "__main__":
   main()
