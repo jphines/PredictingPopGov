@@ -1,3 +1,13 @@
+# Srubs data by filtering all clicks not from the united states
+# Filters data not from a twitter redirect
+# Gets total clicks from a bitly global hash using the bitly api
+# Downloads the src of a webpage from said link
+# Finds all meaningful text (Assumed to be in the title and <p> tags)
+# Removes puncation, all superflous white space
+# Organizes data based on total number of clicks into 5 categories
+# saves into separate tsv files for each with url, location, clicks, and 
+# cleaned words from said webpage
+
 import json
 import bitly_api
 import codecs
