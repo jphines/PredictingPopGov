@@ -1,0 +1,4 @@
+build
+dist
+bitly_api.egg-info
+*.pyc
