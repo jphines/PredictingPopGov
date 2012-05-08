@@ -8,57 +8,49 @@
 # saves into separate tsv files for each with url, location, clicks, and 
 # cleaned words from said webpage
 
+import unicodedata
 import bitly_api
 import lxml.html
 import string, re, json, codecs, os, glob, csv 
 import sys
-import unicodedata
 import socket
-timeout = 10
+timeout = 7
 socket.setdefaulttimeout(timeout)
-
-c = bitly_api.Connection('o_2epmte81bk','R_2fd504831c77c1ecf9518e6bcbcbb92a')
+global_set = set()
+c = bitly_api.Connection('justinhines','R_8b65a446e3b9794aa021967762a34a50') 
 
 stop_words = set(line.strip() for line in open('../requirements/stopwords.txt'))
-states = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NH', 'NV', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'WA', 'WV', 'WI', 'WY', 'global']
+states = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NC', 'NE', 'NH', 'NV', 'NJ', 'NM', 'NY', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'WA', 'WV', 'WI', 'WY', 'global']
 files = ['low','medium','high','popular','insane']
 path = '../tsv/'
 data_path = '../usagov_data/'
 
+def chunks(l, n):
+  return [l[i:i+n] for i in range(0, len(l), n)]
 
 def write_states(d):
   for state in states:
     lists = []
-    for k in d[state]:
-      print k
-      clicks = d[state][k]['clicks']
-      lists.append([k,clicks])
+    for hash, v in d[state].iteritems():
+
+      clicks = v['l']
+      lists.append([hash,clicks])
     lists = sorted(lists, key = lambda x: x[1])
-    length = len(lists)/5
-    x, i, n, p = 1, 0, 0, 0
-    file = files[0]
     d[state]['file'] = {}
     d[state]['writer'] = {}
     for file in files:
       d[state]['file'][file] = open(path+state+'/'+file+'.tsv','w')
       d[state]['writer'][file] = csv.writer(d[state]['file'][file], delimiter='\t')
-    while x < (len(lists) - length):
-      k = lists[n][0]
-      print k
-      if not d[state].has_key(k):
-        continue
-      clicks = d[state][k]['clicks']
-      content = d[state][k]['content']
-      d[state]['writer'][file].writerow([k,state,clicks,content])
-      if p == length:
-        x +=  length 
-        i += 1
-        file = files[i]
-        d[state]['file'][file].close()
-        p = 0
-      else:
-        p += 1
-      n += 1
+    chunked = chunks(lists, 5)
+    file_count = 0
+    for chunk in chunked:
+      file = files[file_count]
+      for tup in chunk:
+        hash = tup[0]
+        content = d[state][hash]['c']
+        d[state]['writer'][file].writerow([hash, tup[1], state, content])
+      d[state]['file'][file].close()
+      file_count += 1
 
 
 def clean_string(str):
@@ -96,7 +88,6 @@ def get_content_as_list(hash):
     soup = lxml.html.parse(url)
     title = clean_string(soup.find(".//title").text)
     body = body_to_string(soup.xpath('//p')) 
-    sys.stdout.write("D")
     return (title+" "+body).split() 
   except:
     return ["Error"]
@@ -111,41 +102,55 @@ def state_setup():
 
 
 def main():
-  #out = open('../log/current.log', 'w')
-  #sys.stdout = out
+  out = open('../log/current.log', 'w')
+  sys.stdout = out
   d = state_setup()
+  count = 1534
   for infile in glob.glob(os.path.join(data_path, 'usagov_bitly_data*')):
+    count
     print "current file is: " + infile
     data_file = codecs.open(infile,'r','utf-8')
     for line in data_file:
       try:
         dict = json.loads(line.strip())
         location = dict['gr']
-        if not location in states:
-          continue
-        hash = dict['g'] 
-        location = dict['gr']
-        if hash in d[location]:
-          print "x"
-          d[location][hash]['clicks'] += 1
-        else:
-          if hash in d['global']:
-            d[location][hash]['content'] = d['global'][hash]['content']
-            d[location][hash]['clicks'] = 1
-          else:
-            content = get_content_as_list(hash)
-            if content <= 50: 
-              sys.stdout.write("-")
-              continue
-            content = ' '.join(content[:20])
-            g_clicks = get_clicks(hash)
-            d['global'][hash]['clicks'] = g_clicks
-            d['global'][hash]['content'] = content 
-            d[location][hash]['clicks'] = 1
-            d[location][hash]['content'] = content
-            sys.stdout.write(".")
-      except: 
+      except:
         continue
+      if dict['g'] in global_set:
+        continue
+      if not dict['gr'] in states:
+        continue
+      hash = dict['g']
+      hash = unicodedata.normalize('NFKD', hash).encode('ascii','ignore')
+      location = dict['gr']
+      location = unicodedata.normalize('NFKD', location).encode('ascii','ignore') 
+      if hash in d[location]:
+        d[location][hash]['l'] += 1
+        sys.stdout.write("l")
+      else:
+        if hash in d['global']:
+          d[location][hash] = {}
+          d[location][hash]['c'] = d['global'][hash]['c']
+          d[location][hash]['l'] = 1
+          sys.stdout.write("g")
+        else:
+          content = get_content_as_list(hash)
+          if len(content) <= 50:
+            global_set.add(hash)
+            continue
+          content = ' '.join(content[:50])
+          d['global'][hash] = {}
+          d[location][hash] = {}
+          g_clicks = get_clicks(hash)
+          d['global'][hash]['l'] = g_clicks
+          d['global'][hash]['c'] = content 
+          d[location][hash]['l'] = 1
+          d[location][hash]['c'] = content
+          sys.stdout.write(".")
+    count -= 1
+    log = open('../log/'+count+'_left.log','w')
+    log.close()
+      
   write_states(d)
 
 

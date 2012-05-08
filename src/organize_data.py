@@ -25,7 +25,7 @@ def state_setup(file):
     d[state]['content'] = {}
   return d
 
-def main():
+def main(): 
   for file in files:
     if not os.path.exists(path):
       os.makedirs(path)
