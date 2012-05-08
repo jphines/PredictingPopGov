@@ -14,6 +14,8 @@ import lxml.html
 import string, re, json, codecs, os, glob, csv 
 import sys
 import socket
+import ctypes
+
 timeout = 7
 socket.setdefaulttimeout(timeout)
 global_set = set()
@@ -25,14 +27,24 @@ files = ['low','medium','high','popular','insane']
 path = '../tsv/'
 data_path = '../usagov_data/'
 
-def chunks(l, n):
-  return [l[i:i+n] for i in range(0, len(l), n)]
+#def chunks(l, n):
+#  return [l[i:i+n] for i in range(0, len(l), n)]
 
+def write_states(d):
+  for state in states:
+    state_writer = csv.writer(open(path+ ".tsv.", 'w'), delimiter = '\t')
+    for hash, value in d[state].iteritems():
+      clicks = value['l']
+      content = d[state][hash['c']
+      state_writer.writerow( [hash, clicks, state, content] )
+      state_wrtier.close()
+  return "done"
+
+"""
 def write_states(d):
   for state in states:
     lists = []
     for hash, v in d[state].iteritems():
-
       clicks = v['l']
       lists.append([hash,clicks])
     lists = sorted(lists, key = lambda x: x[1])
@@ -51,6 +63,7 @@ def write_states(d):
         d[state]['writer'][file].writerow([hash, tup[1], state, content])
       d[state]['file'][file].close()
       file_count += 1
+"""
 
 
 def clean_string(str):
@@ -102,12 +115,8 @@ def state_setup():
 
 
 def main():
-  out = open('../log/current.log', 'w')
-  sys.stdout = out
   d = state_setup()
-  count = 1534
   for infile in glob.glob(os.path.join(data_path, 'usagov_bitly_data*')):
-    count
     print "current file is: " + infile
     data_file = codecs.open(infile,'r','utf-8')
     for line in data_file:
@@ -126,13 +135,13 @@ def main():
       location = unicodedata.normalize('NFKD', location).encode('ascii','ignore') 
       if hash in d[location]:
         d[location][hash]['l'] += 1
-        sys.stdout.write("l")
+        d['global'][hash]['l'} += 1
       else:
         if hash in d['global']:
           d[location][hash] = {}
-          d[location][hash]['c'] = d['global'][hash]['c']
+          d[location][hash]['c'] = ctypes.c_char_p(d['global'][hash]['c'])
           d[location][hash]['l'] = 1
-          sys.stdout.write("g")
+          d['global'][hash]['l'] += 1
         else:
           content = get_content_as_list(hash)
           if len(content) <= 50:
@@ -141,18 +150,15 @@ def main():
           content = ' '.join(content[:50])
           d['global'][hash] = {}
           d[location][hash] = {}
-          g_clicks = get_clicks(hash)
-          d['global'][hash]['l'] = g_clicks
+          d['global'][hash]['l'] = 1
           d['global'][hash]['c'] = content 
           d[location][hash]['l'] = 1
-          d[location][hash]['c'] = content
+          d[location][hash]['c'] = ctypes.c_char_p(d['global'][hash]['c'])
           sys.stdout.write(".")
-    count -= 1
-    log = open('../log/'+count+'_left.log','w')
-    log.close()
-      
   write_states(d)
 
 
 if __name__ == "__main__":
   main()
+  global path += sys.argv[0] + '/'
+  global data_path += sys.argv]0] + '/'
