@@ -9,31 +9,61 @@
 # cleaned words from said webpage
 
 import unicodedata
+import bitly_api
 import lxml.html
 import string, re, json, codecs, os, glob, csv 
 import sys
 import socket
 import ctypes
+
 timeout = 7
 socket.setdefaulttimeout(timeout)
+global_set = set()
+c = bitly_api.Connection('justinhines','R_8b65a446e3b9794aa021967762a34a50') 
 
 stop_words = set(line.strip() for line in open('../requirements/stopwords.txt'))
 states = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NC', 'NE', 'NH', 'NV', 'NJ', 'NM', 'NY', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'WA', 'WV', 'WI', 'WY', 'global']
+files = ['low','medium','high','popular','insane']
+path = '../tsv/'
+data_path = '../usagov_data/'
 
-path = '../tsv/' 
-data_path = '../usagov_data_monthly/' + sys.argv[1] + '/' 
-test_set = '/'+sys.argv[1]
-global_set = set()
+#def chunks(l, n):
+#  return [l[i:i+n] for i in range(0, len(l), n)]
 
 def write_states(d):
   for state in states:
-    file = open(path+state+test_set+'/out.tsv', 'w')
-    state_writer = csv.writer(file, delimiter = '\t')
+    state_writer = csv.writer(open(path+ ".tsv.", 'w'), delimiter = '\t')
     for hash, value in d[state].iteritems():
       clicks = value['l']
-      content = d[state][hash]['c']
+      content = d[state][hash['c']
       state_writer.writerow( [hash, clicks, state, content] )
-    file.close()
+      state_wrtier.close()
+  return "done"
+
+"""
+def write_states(d):
+  for state in states:
+    lists = []
+    for hash, v in d[state].iteritems():
+      clicks = v['l']
+      lists.append([hash,clicks])
+    lists = sorted(lists, key = lambda x: x[1])
+    d[state]['file'] = {}
+    d[state]['writer'] = {}
+    for file in files:
+      d[state]['file'][file] = open(path+state+'/'+file+'.tsv','w')
+      d[state]['writer'][file] = csv.writer(d[state]['file'][file], delimiter='\t')
+    chunked = chunks(lists, 5)
+    file_count = 0
+    for chunk in chunked:
+      file = files[file_count]
+      for tup in chunk:
+        hash = tup[0]
+        content = d[state][hash]['c']
+        d[state]['writer'][file].writerow([hash, tup[1], state, content])
+      d[state]['file'][file].close()
+      file_count += 1
+"""
 
 
 def clean_string(str):
@@ -79,8 +109,8 @@ def state_setup():
   d = dict() 
   for state in states:
     d[state] = {}
-    if not os.path.exists(path+state+test_set):
-      os.makedirs(path+state+test_set)
+    if not os.path.exists(path+state):
+      os.makedirs(path+state)
   return d
 
 
@@ -99,11 +129,13 @@ def main():
         continue
       if not dict['gr'] in states:
         continue
-      hash = deunicode(dict['g'])
-      location = deunicode(dict['gr'])
+      hash = dict['g']
+      hash = unicodedata.normalize('NFKD', hash).encode('ascii','ignore')
+      location = dict['gr']
+      location = unicodedata.normalize('NFKD', location).encode('ascii','ignore') 
       if hash in d[location]:
         d[location][hash]['l'] += 1
-        d['global'][hash]['l'] += 1
+        d['global'][hash]['l'} += 1
       else:
         if hash in d['global']:
           d[location][hash] = {}
@@ -122,9 +154,11 @@ def main():
           d['global'][hash]['c'] = content 
           d[location][hash]['l'] = 1
           d[location][hash]['c'] = ctypes.c_char_p(d['global'][hash]['c'])
+          sys.stdout.write(".")
   write_states(d)
 
 
 if __name__ == "__main__":
   main()
-  print "Finished"
+  global path += sys.argv[0] + '/'
+  global data_path += sys.argv]0] + '/'
