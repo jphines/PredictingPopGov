@@ -6,14 +6,13 @@ import random
 import time
 import sys
 
-
-states = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NH', 'NV', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'WA', 'WV', 'WI', 'WY', 'total']
+states = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NC', 'NE', 'NH', 'NV', 'NJ', 'NM', 'NY', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'WA', 'WV', 'WI', 'WY', 'global']
 
 files = ['low','medium','high','popular','insane']
 path = '../tsv/'
 
 def load_document(section, state):
-    reader = csv.reader(open(path + state + '/'+ section + ".tsv", 'rb'), delimiter='\t')
+    reader = csv.reader(open(path + state + '/tsvs/' + section + ".tsv", 'rb'), delimiter='\t')
     documents = []
     exclude = set(string.punctuation)
     count = 0
@@ -118,6 +117,7 @@ def predict(weights, test_list, dictionary):
                 queue.sort(key=lambda x: x[0])
             confusion[sect_cnt][max_index] += 1
         sect_cnt += 1
+    print "\n"
     print queue
     return confusion
 
@@ -133,6 +133,7 @@ def worker(state):
         sparses.append(make_sparse_matrix(section, dictionary))
     weights = train(sparses, len(dictionary[0]), 3, 1, 1000)
     words(weights, dictionary)
+    print "\n"
     print predict(weights, sets[1], dictionary)
 
 
@@ -150,11 +151,12 @@ def words(weights, dictionary):
         temp_arr = row.argsort()[-10:][::-1]
         max_ranges = set(temp_arr.flat)
         words = [k for k, v in dictionary[1].iteritems() if v in max_ranges]
+        print "words"
         print words
 
 def main():
     for state in states:
-        out = open(path+state+'/output.log', 'w')
+        out = open('../log/'+state+'.log', 'w')
         sys.stdout = out
         worker(state)
 
