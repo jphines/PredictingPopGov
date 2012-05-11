@@ -1,0 +1,1530 @@
+words
+['emailing', 'emanating', 'email', 'em', 'embrace', 'embedded', 'embayments', 'elk', 'emails']
+words
+['external', 'link', 'control', 'links', 'software', 'human', 'awareness', 'services', '1', 'questions']
+words
+['pubmed', 'experience', 'research', 'home', 'citation', 'file', 'ncbi', 'management', 'generate', 'questions']
+words
+['pubmed', 'congress', 'research', 'software', 'library', 'file', 'february', 'ncbi', 'management', 'generate']
+words
+['act', 'resources', 'discussion', 'twitter', 'library', 'file', 'ncbi', 'management', 'questions', 'member']
+
+
+
+
+Accuracy per Label
+
+0.0714285714286
+0.294117647059
+0.18
+0.529411764706
+0.171875
+Total Accuracy
+0.231092436975
+
+
+[[  4.  15.   9.   9.  11.]
+ [ 17.  12.  12.   1.   6.]
+ [  9.   8.  14.   2.  15.]
+ [ 17.   9.   9.   3.  10.]
+ [  9.   7.   6.   2.  22.]]
+words
+['erotic', 'equality', 'erection', 'eruption', 'eruptions', 'equinox', 'erupting', 'equity', 'epahqoap20110660']
+words
+['erotic', 'equality', 'erection', 'eruption', 'eruptions', 'equinox', 'erupting', 'equity', 'epahqoap20110660']
+words
+['study', 'easy', 'discover', 'information', 'eagle', 'image', 'event', 'state', '5', 'monday']
+words
+['treatment', 'report', 'contact', 'today', 'caused', 'entire', 'links', 'university', 'view', 'weather']
+words
+['approximately', 'servicealaska', 'data', 'regional', 'mission', 'mosaic', 'picks', 'files', 'images', 'page']
+
+
+
+
+Accuracy per Label
+
+0.1
+0.416666666667
+0.111111111111
+0.25
+0.142857142857
+Total Accuracy
+0.271428571429
+
+
+[[ 1.  5.  2.  4.  2.]
+ [ 2.  4.  1.  3.  4.]
+ [ 2.  1.  7.  3.  1.]
+ [ 1.  2.  3.  4.  4.]
+ [ 4.  0.  5.  2.  3.]]
+words
+['employees', 'empty', 'emerging', 'employed', 'employers', 'emphysema', 'emphasized', 'employee', 'employment']
+words
+['employees', 'empty', 'emerging', 'employed', 'employers', 'emphysema', 'emphasized', 'employee', 'employment']
+words
+['healthday', 'business', 'march', 'page', 'library', 'home', 'california', '4', 'apod', 'lead']
+words
+['asked', 'homeland', 'dc', 'test', 'social', 'treatment', 'prepare', 'links', 'clin', 'hazard']
+words
+['2', 'approximately', 'change', 'death', 'point', '300', 'day', 'cassini', 'murder', 'inmate']
+
+
+
+
+Accuracy per Label
+
+0.211538461538
+0.234693877551
+0.152777777778
+0.211764705882
+0.161290322581
+Total Accuracy
+0.227810650888
+
+
+[[ 11.  23.  11.  18.   5.]
+ [ 10.  19.  16.  16.   7.]
+ [  8.  20.  20.  15.   5.]
+ [ 12.  16.  15.  19.   6.]
+ [ 11.  20.  10.  17.   8.]]
+words
+['enhance', 'enjoy', 'enhancing', 'enlarged', 'engraver', 'engineering', 'enjoyable', 'enforcement', 'enhanced']
+words
+['aid', 'quick', 'act', 'students', 'march', 'application', 'united', 'privacy', 'education', '40']
+words
+['consistent', 'healthfindergov', 'visitors', 'tornado', '5', 'part', '80', 'time', 'subject', '2011']
+words
+['pubmed', 'human', 'part', 'images', 'management', 'united', 'javascript', '2011', 'file', '40']
+words
+['space', 'specific', 'increase', '11', '10', 'bright', 'act', 'department', 'local', 'distant']
+
+
+
+
+Accuracy per Label
+
+0.216216216216
+0.222222222222
+0.230769230769
+0.193548387097
+0.0714285714286
+Total Accuracy
+0.202702702703
+
+
+[[  8.   6.   9.   6.   1.]
+ [  6.   5.   7.   8.   4.]
+ [  8.   6.   7.   7.   2.]
+ [  6.   6.  11.   5.   2.]
+ [  9.   4.   5.   5.   5.]]
+words
+['duodenum', 'duplication', 'duration', 'dunn', 'durable', 'duplex', 'dunes', 'duplicated', 'duodenojejunal']
+words
+['online', 'compared', 'key', 'bmj', 'nsf', 'engineering', 'identified', 'comment', 'picture', 'clin']
+words
+['affect', 'levels', 'existing', 'preventing', 'corps', '7', 'team', 'weeks', 'hard', 'centre']
+words
+['compared', 'issue', 'database', 'ground', 'island', 'share', 'request', 'charge', 'platform', 'district']
+words
+['purpose', 'system', 'mission', 'features', 'programs', 'miles', 'solstice', 'titan', 'exploration', 'cassini']
+
+
+
+
+Accuracy per Label
+
+0.186991869919
+0.221264367816
+0.207715133531
+0.234848484848
+0.168975069252
+Total Accuracy
+0.238764044944
+
+
+[[  46.   77.   70.   31.   61.]
+ [  53.   78.   71.   27.   56.]
+ [  51.   66.   80.   19.   69.]
+ [  48.   81.   53.   32.   71.]
+ [  48.   46.   63.   23.  104.]]
+words
+['90', 'uk', 'mission', 'area', 'education', '10', 'visible', 'hospital', 'feet', 'largest']
+words
+['healthfindergov', 'news', 'team', 'learn', 'researchers', 'jan', 'live', 'application', 'connect', 'member']
+words
+['previous', 'learn', 'projects', 'half', 'business', 'robert', 'times', 'institute', '2008', '50']
+words
+['resources', 'business', 'frequently', 'type', 'skip', 'monitor', '23', 'earth', 'navigation', 'issues']
+words
+['st', 'jan', 'change', 'historic', 'institute', 'share', 'maryland', 'announces', 'diseases', 'activities']
+
+
+
+
+Accuracy per Label
+
+0.19801980198
+0.212765957447
+0.176470588235
+0.18
+0.216494845361
+Total Accuracy
+0.19512195122
+
+
+[[ 20.  20.  12.   9.  21.]
+ [ 21.  16.  15.  12.  18.]
+ [ 24.  17.  11.  12.  18.]
+ [ 19.  18.  18.  10.  17.]
+ [ 17.  23.  12.   7.  23.]]
+words
+['effects', 'eighteen', 'ejected', 'effort', 'efficient', 'efforts', 'eighth', 'efile', 'ejection']
+words
+['reports', 'time', 'test', 'control', 'institute', '11', '12', 'point', 'tests', 'women']
+words
+['irs', 'act', 'high', 'discover', 'january', 'shows', 'study', 'years', '2006', 'submitted']
+words
+['records', 'process', 'increased', 'dc', 'early', 'washington', 'commission', 'group', 'determine', 'issued']
+words
+['act', 'psychology', 'usa', 'january', 'money', 'late', 'baltimore', 'census', 'captured', 'andor']
+
+
+
+
+Accuracy per Label
+
+0.229166666667
+0.196721311475
+0.139534883721
+0.2125
+0.222222222222
+Total Accuracy
+0.19305019305
+
+
+[[ 11.  12.   6.  17.   6.]
+ [  5.  11.  11.  20.   5.]
+ [  8.  10.  11.  16.   7.]
+ [ 10.  10.  10.  15.   7.]
+ [ 14.  18.   5.  12.   2.]]
+words
+['types', 'il', 'people', 'box', 'federal', 'st', 'activity', 'location', 'ridge', 'disease']
+words
+['md', '12', 'medical', 'act', 'late', 'event', 'health', 'purpose', 'provided', 'biology']
+words
+['types', 'regularly', 'reported', 'updated', 'security', 'address', 'condition', 'activity', 'code', 'obtain']
+words
+['campaign', 'combination', 'human', 'information', 'unit', 'version', 'sports', 'evolutionary', 'south', 'dose']
+words
+['days', '11', 'world', 'feel', 'nasa', 'march', 'library', '30', 'years', 'amendment']
+
+
+
+
+Accuracy per Label
+
+0.0
+0.222222222222
+0.266666666667
+0.166666666667
+0.25
+Total Accuracy
+0.212765957447
+
+
+[[ 0.  4.  4.  5.  6.]
+ [ 3.  4.  1.  4.  7.]
+ [ 1.  4.  3.  7.  4.]
+ [ 1.  4.  4.  8.  2.]
+ [ 2.  2.  3.  6.  5.]]
+words
+['edgar', 'economy', 'ed', 'ecosystems', 'ect', 'ecosystem', 'ecuador', 'edge', 'edd']
+words
+['bright', 'learn', 'flash', 'severe', 'statistics', 'transportation', 'player', '1', 'set', 'planning']
+words
+['edgar', 'economy', 'ed', 'ecosystems', 'ect', 'ecosystem', 'ecuador', 'edge', 'edd']
+words
+['register', 'wildlife', 'comments', 'event', 'ondemand', 'quality', 'judiciary', 'risk', 'review', 'case']
+words
+['life', 'found', '2011', 'american', 'improving', 'st', 'call', '2006', 'disease', 'tests']
+
+
+
+
+Accuracy per Label
+
+0.216216216216
+0.126436781609
+0.234567901235
+0.192771084337
+0.224637681159
+Total Accuracy
+0.226781857451
+
+
+[[ 16.  11.  19.  16.  31.]
+ [ 17.  16.  14.  18.  28.]
+ [  9.  28.  17.  12.  27.]
+ [ 15.  17.  17.  24.  20.]
+ [ 17.  15.  14.  13.  32.]]
+words
+['edsc', 'dynamics', 'edition', 'editorials', 'editions', 'editorial', 'editors', 'edison', 'edith']
+words
+['commitment', 'sign', 'download', 'colorful', 'infrastructure', 'common', 'create', 'access', 'deep', 'linked']
+words
+['open', 'obama', 'email', 'world', 'board', 'comments', 'president', 'access', 'executive', '40']
+words
+['inside', 'union', 'commitment', 'network', 'sign', 'download', 'interactive', 'enhanced', '40', 'watch']
+words
+['internet', 'email', 'world', 'ten', 'download', 'located', '11', '10', 'access', 'legal']
+
+
+
+
+Accuracy per Label
+
+0.194915254237
+0.208333333333
+0.241379310345
+0.202127659574
+0.16
+Total Accuracy
+0.229202037351
+
+
+[[ 23.  20.  21.  38.  16.]
+ [ 17.  21.  17.  43.  20.]
+ [ 27.  18.  19.  33.  21.]
+ [ 24.  18.  21.  42.  13.]
+ [ 27.  19.   9.  32.  30.]]
+words
+['electricity', 'elections', 'electors', 'electrocution', 'elected', 'electrical', 'electrocuting', 'election', 'electric']
+words
+['resell', 'firm', 'recalled', 'consumers', 'safety', 'put', 'consumer', 'recall', 'due', 'hazard']
+words
+['result', 'product', 'consumers', 'safety', 'immediately', 'consumer', 'commission', 'industry', '1', 'due']
+words
+['people', 'dollars', 'inside', 'obama', 'petitions', 'commitment', 'american', 'president', 'spent', 'visitor']
+words
+['dollars', 'obama', 'commitment', 'president', 'tour', 'create', 'spent', 'tax', 'executive', 'visitor']
+
+
+
+
+Accuracy per Label
+
+0.207407407407
+0.159090909091
+0.173333333333
+0.26582278481
+0.177777777778
+Total Accuracy
+0.212765957447
+
+
+[[ 28.   7.  13.  21.  16.]
+ [ 22.   8.  15.  17.  23.]
+ [ 29.   9.  20.  10.  17.]
+ [ 25.  12.  16.  16.  16.]
+ [ 31.   8.  11.  15.  18.]]
+words
+['web', 'dc', 'fema', 'white', 'federal', 'library', 'video', 'tax', '2010', 'site']
+words
+['tornadoes', 'f2f5', 'report', 'forecaster', 'area', '5', 'service', '70', 'category', 'news']
+words
+['featured', 'written', 'cosmos', 'discover', 'professional', 'astronomer', '24', 'service', 'day', 'photograph']
+words
+['web', 'federal', 'external', 'house', 'questions', 'provided', 'requires', 'javascript', 'ncbi', 'site']
+words
+['updated', 'data', 'bright', 'federal', 'dark', 'questions', 'located', 'sky', 'notices', 'official']
+
+
+
+
+Accuracy per Label
+
+0.363636363636
+0.117647058824
+0.225806451613
+0.166666666667
+0.173913043478
+Total Accuracy
+0.22
+
+
+[[ 4.  2.  7.  3.  4.]
+ [ 1.  5.  6.  3.  5.]
+ [ 1.  4.  5.  5.  5.]
+ [ 2.  3.  8.  3.  4.]
+ [ 3.  3.  5.  4.  5.]]
+words
+['epederuwashingtonedu', 'episodes', 'equipment', 'epigenetics', 'epimetheus', 'epidemiologist', 'equilibrium', 'epidemiology', 'equally']
+words
+['january', 'effects', 'resources', 'view', 'note', 'treatment', 'river', 'department', 'control', 'produced']
+words
+['january', 'congress', 'scientists', 'shows', 'prior', 'states', 'services', 'purpose', 'department', 'united']
+words
+['visible', 'cassini', 'solstice', 'view', 'moons', 'external', 'file', 'spacecraft', 'images', 'web']
+words
+['cassini', 'human', 'solstice', 'view', 'miles', 'external', 'file', 'university', 'system', 'site']
+
+
+
+
+Accuracy per Label
+
+0.214285714286
+0.111111111111
+0.21875
+0.157894736842
+0.416666666667
+Total Accuracy
+0.163461538462
+
+
+[[ 3.  3.  7.  3.  5.]
+ [ 3.  6.  6.  5.  1.]
+ [ 5.  5.  5.  3.  3.]
+ [ 2.  8.  7.  2.  2.]
+ [ 1.  5.  7.  6.  1.]]
+words
+['earthlings', 'earners', 'earliest', 'earns', 'earned', 'earning', 'earth', 'earthshine', 'earths']
+words
+['reports', 'set', 'monthly', 'age', 'system', 'life', 'notices', 'county', 'joint', 'presidential']
+words
+['receive', 'order', 'generally', 'map', 'type', 'open', 'show', 'provide', 'texas', 'strong']
+words
+['set', 'conclusions', '2010', 'sources', 'million', 'systems', 'area', 'main', 'funding', 'review']
+words
+['httpwwwwhitehousegovvideo', 'life', 'approximately', 'discussion', 'systems', 'ondemand', 'facebook', 'home', '12', 'inmate']
+
+
+
+
+Accuracy per Label
+
+0.230769230769
+0.207627118644
+0.19
+0.148148148148
+0.1953125
+Total Accuracy
+0.22962962963
+
+
+[[ 30.  49.  19.  12.  25.]
+ [ 31.  47.  24.  17.  16.]
+ [ 27.  53.  18.  17.  20.]
+ [ 27.  44.  19.  19.  26.]
+ [ 15.  43.  20.  16.  41.]]
+words
+['emailing', 'elite', 'email', 'elimination', 'elk', 'ellison', 'eligibility', 'emails', 'ellipse']
+words
+['emailing', 'elite', 'email', 'elimination', 'elk', 'ellison', 'eligibility', 'emails', 'ellipse']
+words
+['project', 'hours', 'social', 'astronomer', 'photograph', 'featured', 'fascinating', 'day', 'written', 'find']
+words
+['death', 'university', 'photograph', 'michigan', 'featured', 'fascinating', 'cosmos', 'written', 'developed', 'universe']
+words
+['time', 'picks', 'email', 'photo', 'spectacular', 'maryland', 'search', 'offices', 'check', 'moon']
+
+
+
+
+Accuracy per Label
+
+0.202702702703
+0.189189189189
+0.214285714286
+0.188405797101
+0.230769230769
+Total Accuracy
+0.225352112676
+
+
+[[ 15.  14.   6.  13.   9.]
+ [ 19.  15.   6.  10.   7.]
+ [ 15.  10.   6.  19.   7.]
+ [ 16.  16.   5.  16.   4.]
+ [  9.  19.   5.  11.  12.]]
+words
+['drug', 'encyclopedia', 'endangered', 'endothelial', 'endorse', 'end', 'endorsement', 'encourages', 'ended']
+words
+['drug', 'encyclopedia', 'endangered', 'endothelial', 'endorse', 'end', 'endorsement', 'encourages', 'ended']
+words
+['pubmed', 'javascript', '2011', 'function', 'requires', 'software', 'ncbi', 'file', 'generate', 'warning']
+words
+['current', 'pubmed', '2011', 'medicine', 'history', 'software', 'university', '8', 'apod', 'activity']
+words
+['participate', 'people', 'httpwwwwhitehousegovvideo', 'comments', 'discussion', 'ondemand', 'facebook', 'library', 'give', 'stop']
+
+
+
+
+Accuracy per Label
+
+0.178571428571
+0.116279069767
+0.30612244898
+0.111111111111
+0.272727272727
+Total Accuracy
+0.179894179894
+
+
+[[  5.   5.  15.   4.   9.]
+ [  8.  10.   5.   6.   9.]
+ [  5.   9.   7.  13.   4.]
+ [  5.   6.  14.   7.   6.]
+ [  5.  13.   8.   6.   5.]]
+words
+['entering', 'entire', 'financing', 'entered', 'enslavement', 'enter', 'ensure', 'entitlement', 'ensign']
+words
+['act', 'complete', 'int', 'magnetic', 'protection', 'comments', 'additional', '11', 'awareness', 'public']
+words
+['fit', 'congress', 'medlineplus', 'dc', 'kilometers', '24', 'thomas', 'text', 'today', 'percent']
+words
+['results', 'professional', 'astronomer', 'featured', 'fascinating', 'road', 'explanation', 'apod', '50', 'universe']
+words
+['union', 'federal', 'bright', 'act', 'petitions', 'logs', 'president', '10', 'house', 'day']
+
+
+
+
+Accuracy per Label
+
+0.24
+0.125
+0.0967741935484
+0.347826086957
+0.19512195122
+Total Accuracy
+0.226130653266
+
+
+[[  6.   7.   3.  16.   8.]
+ [  2.  13.  12.   8.   5.]
+ [  7.  12.   4.  10.   7.]
+ [  4.  18.   5.   7.   6.]
+ [  6.   6.   7.   5.  15.]]
+words
+['employ', 'emotion', 'emi', 'emotional', 'emerging', 'employer', 'employed', 'emphasizes', 'emphasized']
+words
+['illegal', 'product', 'consumers', 'safety', 'recalled', 'attempt', 'consumer', 'commission', 'named', 'voluntary']
+words
+['inside', 'date', 'states', 'home', 'wait', '11', 'house', 'create', 'executive', 'white']
+words
+['federal', 'system', 'atmosphere', 'month', 'march', 'human', 'shot', 'response', 'house', 'actions']
+words
+['inside', 'sign', 'obama', 'commitment', 'wait', 'tour', 'house', 'create', 'executive', 'white']
+
+
+
+
+Accuracy per Label
+
+0.145833333333
+0.233333333333
+0.259259259259
+0.185185185185
+0.195652173913
+Total Accuracy
+0.195744680851
+
+
+[[  7.  14.   7.  10.   9.]
+ [  7.  13.   4.  12.  11.]
+ [ 15.  14.   3.   9.   6.]
+ [  9.  15.   4.  11.   8.]
+ [ 10.   4.   9.  12.  12.]]
+words
+['emotion', 'enable', 'employees', 'en', 'empty', 'emphysema', 'employed', 'emphasis', 'employment']
+words
+['fascinating', 'discover', 'professional', 'astronomer', 'featured', 'explanation', 'text', 'apod', '1', 'written']
+words
+['drive', 'high', 'professional', 'astronomer', 'education', 'featured', 'institute', 'main', 'apod', 'written']
+words
+['90', '2011', '2010', 'lung', 'office', 'photographer', 'policy', 'path', '50', 'burglary']
+words
+['fascinating', 'discover', 'professional', 'media', 'astronomer', 'photograph', 'cosmos', 'explanation', 'healthy', 'written']
+
+
+
+
+Accuracy per Label
+
+0.181818181818
+0.111111111111
+0.15625
+0.307692307692
+0.173076923077
+Total Accuracy
+0.216216216216
+
+
+[[  4.   3.   5.  16.   9.]
+ [  2.   4.   7.  18.   6.]
+ [  4.   8.   9.   6.  10.]
+ [  5.   6.   8.   7.  11.]
+ [  7.   6.   3.   5.  16.]]
+words
+['gop', 'resigned', 'date', 'federal', '3', 'committee', 'march', 'including', 'state', 'practice']
+words
+['grantsgov', 'individuals', 'year', 'nsfgov', 'town', 'share', 'developed', 'grant', 'nsf', 'documents']
+words
+['written', 'featured', 'cosmos', 'image', 'dark', 'images', 'young', 'usa', 'fascinating', 'apod']
+words
+['usda', 'individuals', 'note', 'image', 'file', 'department', 'usa', 'recommendations', 'variety', 'page']
+words
+['browse', 'president', 'white', 'bright', 'federal', 'kilometers', 'create', 'video', 'state', '2011']
+
+
+
+
+Accuracy per Label
+
+0.0967741935484
+0.133333333333
+0.461538461538
+0.21875
+0.230769230769
+Total Accuracy
+0.211538461538
+
+
+[[ 3.  2.  6.  7.  3.]
+ [ 8.  4.  3.  5.  1.]
+ [ 7.  3.  2.  7.  2.]
+ [ 5.  3.  1.  9.  3.]
+ [ 8.  3.  1.  4.  4.]]
+words
+['elevation', 'elevated', 'elements', 'eleven', 'elementary', 'elemental', 'elevator', 'eligibility', 'elevators']
+words
+['date', 'contained', 'office', '25', 'hyperlinks', 'constitute', 'usda', 'endorsement', 'pm', '9']
+words
+['date', 'locations', 'work', 'board', 'live', 'gene', 'february', 'limited', 'section', 'lead']
+words
+['involved', 'httpwwwwhitehousegovvideo', 'live', 'size', 'ondemand', 'economic', 'med', 'potential', 'section', 'patients']
+words
+['participate', 'inside', 'policies', 'obama', 'httpwwwwhitehousegovvideo', 'live', 'ondemand', 'give', 'tour', 'determine']
+
+
+
+
+Accuracy per Label
+
+0.198198198198
+0.181818181818
+0.264705882353
+0.213333333333
+0.15
+Total Accuracy
+0.224390243902
+
+
+[[ 22.  24.  27.  32.  18.]
+ [ 22.  31.  15.  31.  24.]
+ [ 21.  24.  21.  30.  27.]
+ [ 17.  23.  20.  38.  25.]
+ [ 29.  30.  19.  19.  26.]]
+words
+['enable', 'edsc', 'educ', 'edmonton', 'edmond', 'editors', 'edsitement', 'eds', 'edt']
+words
+['outcomes', 'methods', 'comments', 'flash', 'joint', 'player', 'patient', 'guidelines', '50', 'paper']
+words
+['biol', 'professional', 'astronomer', 'photograph', 'featured', 'fascinating', 'cosmos', 'explanation', 'apod', 'universe']
+words
+['young', 'angeles', 'order', 'office', 'los', 'month', 'august', 'common', 'exercise', 'decisions']
+words
+['kilometers', 'pdf', 'details', 'performance', 'council', 'money', 'visible', 'check', 'review', 'student']
+
+
+
+
+Accuracy per Label
+
+0.198275862069
+0.175925925926
+0.228723404255
+0.173913043478
+0.190476190476
+Total Accuracy
+0.22602739726
+
+
+[[ 23.  19.  43.   8.  24.]
+ [ 21.  26.  36.  12.  22.]
+ [ 28.  24.  32.  10.  23.]
+ [ 22.  25.  40.  12.  18.]
+ [ 22.  14.  37.   4.  39.]]
+words
+['eclipse', 'echocardiography', 'ebipubmed', 'economic', 'eatingrelated', 'ecco2', 'ecological', 'ebiomed', 'echo']
+words
+['hours', 'process', 'homeowners', 'left', 'brian', 'time', '40', 'requirements', 'period', 'twitter']
+words
+['released', 'survival', 'individuals', 'government', 'monday', 'developed', 'updates', 'institute', 'perform', 'regularly']
+words
+['released', 'summary', 'future', 'early', 'area', 'page', 'institute', 'lake', 'division', 'press']
+words
+['participate', 'government', 'approximately', 'facebook', 'make', '12', 'mental', 'greater', 'visible', 'degree']
+
+
+
+
+Accuracy per Label
+
+0.252873563218
+0.202380952381
+0.158536585366
+0.145833333333
+0.262295081967
+Total Accuracy
+0.212195121951
+
+
+[[ 22.  17.  13.  14.  16.]
+ [ 21.  16.  16.  22.   7.]
+ [ 13.  13.  20.  25.  11.]
+ [ 20.  20.  20.  12.  10.]
+ [ 11.  18.  13.  23.  17.]]
+words
+['el', 'eit', 'ejected', 'eib91', 'egyptians', 'effort', 'eighthgraders', 'efforts', 'efile']
+words
+['email', 'residential', 'secretary', 'generally', 'moderate', 'services', 'south', 'trade', '80', 'press']
+words
+['research', 'comments', 'pictured', 'decades', 'identify', 'institute', 'california', 'cancer', 'college', 'patients']
+words
+['research', 'thursday', 'march', 'education', 'suns', 'compare', '8', 'published', 'copy', 'review']
+words
+['responsible', 'inside', 'research', 'commitment', 'march', 'twitter', 'human', 'specific', 'requirements', 'tax']
+
+
+
+
+Accuracy per Label
+
+0.19298245614
+0.246913580247
+0.196078431373
+0.192307692308
+0.172413793103
+Total Accuracy
+0.206798866856
+
+
+[[ 11.  20.  20.   5.  15.]
+ [ 10.  16.  15.  10.  20.]
+ [  8.  14.  25.   2.  22.]
+ [ 14.  15.  23.   5.  14.]
+ [ 14.  16.  19.   4.  16.]]
+words
+['electricity', 'electronic', 'elevation', 'eli', 'elderly', 'einstein', 'eggs', 'elevated', 'elaine']
+words
+['employees', 'contact', '12', 'august', 'image', 'find', 'click', 'submit', 'photographer', 'page']
+words
+['endorsement', 'link', 'hyperlinked', 'external', 'learn', 'services', 'hyperlink', 'purpose', 'hyperlinks', 'united']
+words
+['successful', '50', 'people', 'topic', 'policies', 'general', 'services', 'find', 'related', 'key']
+words
+['provide', 'external', 'file', 'program', 'generate', 'ncbi', 'javascript', 'management', 'requires', 'function']
+
+
+
+
+Accuracy per Label
+
+0.170212765957
+0.217391304348
+0.266666666667
+0.363636363636
+0.15625
+Total Accuracy
+0.234375
+
+
+[[  8.   5.   4.   4.   5.]
+ [  7.  10.   0.   2.   7.]
+ [ 13.   2.   4.   4.   3.]
+ [ 12.   2.   3.   0.   9.]
+ [  7.   4.   4.   1.   8.]]
+words
+['embassy', 'emergency', 'emanating', 'email', 'emancipator', 'elucidate', 'em', 'embed', 'emails']
+words
+['medlineplus', 'discover', 'astronomer', 'march', 'photograph', 'featured', 'fascinating', 'cosmos', 'explanation', 'written']
+words
+['reported', 'working', 'show', 'media', 'area', 'library', 'md', 'sciences', 'captured', 'developed']
+words
+['space', 'astronomer', 'similar', 'library', 'featured', 'cosmos', 'part', 'explanation', 'tornado', 'division']
+words
+['land', 'role', 'page', 'library', 'updated', 'policy', '2008', 'check', 'catalog', 'today']
+
+
+
+
+Accuracy per Label
+
+0.258620689655
+0.163265306122
+0.109375
+0.323076923077
+0.169811320755
+Total Accuracy
+0.189349112426
+
+
+[[ 15.  16.   7.  21.   9.]
+ [ 16.  15.  12.  14.  11.]
+ [  8.  21.  14.  15.  10.]
+ [ 13.  25.  13.   7.  10.]
+ [  6.  21.  18.   8.  13.]]
+words
+['evidence', 'evol', 'events', 'execution', 'exemptions', 'excited', 'excluded', 'evolutionary', 'evident']
+words
+['size', 'advisory', 'board', 'training', 'area', 'park', 'set', 'adults', 'announced', 'system']
+words
+['force', 'lights', 'listen', 'image', 'health', 'march', 'live', 'day', 'february', 'system']
+words
+['guidelines', 'plugins', 'economy', 'require', 'spectacular', 'river', 'located', '2011', 'key', 'plugin']
+words
+['updated', '240', 'search', 'human', 'care', 'national', 'park', 'access', '2012', 'education']
+
+
+
+
+Accuracy per Label
+
+0.25
+0.222222222222
+0.222222222222
+0.153846153846
+0.190476190476
+Total Accuracy
+0.217391304348
+
+
+[[ 2.  2.  4.  2.  4.]
+ [ 2.  1.  6.  3.  2.]
+ [ 1.  2.  3.  1.  7.]
+ [ 1.  3.  1.  5.  4.]
+ [ 2.  1.  4.  2.  4.]]
+words
+['electricity', 'electrocution', 'electro', 'electroencephalogram', 'electrode', 'electronic', 'electrodes', 'electroconvulsive', 'emails']
+words
+['electricity', 'electrocution', 'electro', 'electroencephalogram', 'electrode', 'electronic', 'electrodes', 'electroconvulsive', 'emails']
+words
+['observed', 'food', 'grant', 'northern', 'street', 'visit', '10', 'awareness', '23', 'opportunities']
+words
+['healthday', 'impact', 'institutes', 'bethesda', 'thursday', 'live', 'developed', 'important', 'earth', 'environment']
+words
+['moved', 'corps', 'conditions', 'eating', 'distant', 'library', 'kilometers', 'americans', 'awareness', 'mission']
+
+
+
+
+Accuracy per Label
+
+0.2
+0.197530864198
+0.227848101266
+0.211678832117
+0.161290322581
+Total Accuracy
+0.220454545455
+
+
+[[ 10.  16.  18.  29.  15.]
+ [  7.  19.  15.  25.  22.]
+ [ 17.  18.  15.  23.  15.]
+ [ 10.  10.  14.  33.  21.]
+ [  6.  18.  17.  27.  20.]]
+words
+['enter', 'endorsement', 'engaged', 'endorsed', 'energy', 'engaging', 'enduran', 'engineering', 'engage']
+words
+['tornadoes', 'network', 'storm', 'service', 'report', 'forecaster', 'probabilities', 'probability', 'f2f5', 'high']
+words
+['report', 'low', 'congress', 'committee', 'continue', 'visit', '30', 'high', 'day', 'increased']
+words
+['january', 'service', 'report', 'pages', 'medlineplus', '30', 'related', 'news', 'weather', 'monday']
+words
+['path', 'visible', 'point', 'law', 'bright', 'moon', 'disk', 'public', '300', '2010']
+
+
+
+
+Accuracy per Label
+
+0.133333333333
+0.166666666667
+0.285714285714
+0.233333333333
+0.285714285714
+Total Accuracy
+0.16935483871
+
+
+[[  4.   6.   2.   7.   6.]
+ [  7.   9.   2.   4.   3.]
+ [  8.   6.   0.   8.   3.]
+ [  6.  10.   0.   4.   5.]
+ [  5.   5.   3.   7.   4.]]
+words
+['end', 'ending', 'endorse', 'endangered', 'endorsed', 'endoftherapy', 'encyclopedia', 'endorsement', 'ended']
+words
+['pubmed', 'external', 'citation', 'ncbi', 'javascript', 'department', 'requires', 'management', 'software', 'site']
+words
+['usa', 'featured', 'night', 'pubmed', 'written', 'external', 'astronomer', 'department', 'video', 'atmosphere']
+words
+['visible', 'special', 'cosmos', 'professional', 'written', 'blog', 'astronomer', 'part', 'point', 'administration']
+words
+['updated', 'president', 'law', 'approximately', 'opportunity', 'files', 'laboratory', 'treating', 'purpose', 'control']
+
+
+
+
+Accuracy per Label
+
+0.260869565217
+0.205882352941
+0.12
+0.173913043478
+0.25
+Total Accuracy
+0.2
+
+
+[[ 6.  7.  3.  4.  5.]
+ [ 2.  8.  5.  4.  6.]
+ [ 5.  6.  4.  7.  3.]
+ [ 5.  6.  9.  3.  2.]
+ [ 5.  7.  4.  5.  4.]]
+words
+['encourage', 'encountering', 'enceladus', 'encino', 'encyclopedia', 'encountered', 'encke', 'encounter', 'encouraged']
+words
+['fascinating', 'discover', 'professional', 'astronomer', 'photograph', 'featured', 'cosmos', 'explanation', 'apod', 'written']
+words
+['information', 'fascinating', 'discover', 'astronomer', 'featured', 'cosmos', 'late', 'explanation', 'written', 'year']
+words
+['act', 'shows', 'education', 'california', '29', '30', 'res', 'path', 'moon', 'developed']
+words
+['dollars', 'federal', 'act', 'obama', 'privacy', 'notices', 'featured', 'policy', '50', 'white']
+
+
+
+
+Accuracy per Label
+
+0.0
+0.230769230769
+0.2
+0.19696969697
+0.285714285714
+Total Accuracy
+0.223463687151
+
+
+[[  0.   6.   9.  13.   8.]
+ [  3.   5.  11.  11.   6.]
+ [  5.   7.   9.  12.   3.]
+ [  2.   2.   9.  19.   4.]
+ [  4.   6.   7.  11.   7.]]
+words
+['educating', 'educate', 'educ', 'educational', 'educat', 'educationa', 'education', 'educationcivic', 'edge']
+words
+['years', 'magnetic', 'secretary', 'meet', 'control', 'give', 'background', 'click', 'advantage', 'local']
+words
+['time', 'intended', 'early', 'location', 'years', 'monday', 'space', 'guide', 'human', '19']
+words
+['participate', 'time', 'httpwwwwhitehousegovvideo', 'comments', 'discussion', 'ondemand', 'give', 'human', 'street', 'member']
+words
+['people', 'city', 'select', 'pdf', 'space', 'materials', 'human', 'note', 'form', 'understand']
+
+
+
+
+Accuracy per Label
+
+0.179104477612
+0.1875
+0.237288135593
+0.24861878453
+0.1
+Total Accuracy
+0.200381679389
+
+
+[[ 12.   9.  28.  45.  11.]
+ [ 14.   8.  25.  35.  23.]
+ [ 12.  11.  22.  37.  23.]
+ [ 15.  10.  26.  32.  22.]
+ [ 14.  10.  17.  32.  31.]]
+words
+['erosion', 'equipped', 'erection', 'epimetheus', 'equity', 'essential', 'equality', 'equally', 'eric']
+words
+['erosion', 'equipped', 'erection', 'epimetheus', 'equity', 'essential', 'equality', 'equally', 'eric']
+words
+['visible', 'night', 'treatment', 'small', 'open', 'study', 'resources', 'drinking', 'university', 'related']
+words
+['report', 'healthday', 'warning', 'file', '20', 'department', 'requires', 'university', 'center', 'increased']
+words
+['children', 'sign', 'obama', 'interactive', 'study', 'march', 'video', 'click', 'tax', 'watch']
+
+
+
+
+Accuracy per Label
+
+0.380952380952
+0.117647058824
+0.161290322581
+0.117647058824
+0.266666666667
+Total Accuracy
+0.278195488722
+
+
+[[  8.   4.   5.   2.   8.]
+ [  3.   9.   9.   5.   1.]
+ [  3.   5.   8.   3.   8.]
+ [  1.  11.   8.   3.   4.]
+ [  6.   5.   1.   4.   9.]]
+words
+['ducks', 'dubai', 'duly', 'due', 'duesseldorf', 'dual', 'dublin', 'duarte', 'dua']
+words
+['power', 'condition', 'code', 'summary', 'mitigate', 'energy', 'security', 'administration', 'earth', 'vulnerabilities']
+words
+['address', 'condition', 'population', 'stop', 'remained', 'skip', 'road', 'comment', 'mission', 'articles']
+words
+['condition', 'increase', 'times', 'summary', 'images', 'road', 'energy', 'security', '2003', 'articles']
+words
+['policies', 'hhs', 'privacy', 'skip', 'council', 'direct', 'visitors', 'moon', 'mission', 'healthy']
+
+
+
+
+Accuracy per Label
+
+0.236966824645
+0.203539823009
+0.16265060241
+0.207236842105
+0.173913043478
+Total Accuracy
+0.221989528796
+
+
+[[ 50.  23.  27.  63.  28.]
+ [ 34.  22.  38.  67.  30.]
+ [ 48.  21.  35.  55.  32.]
+ [ 45.  20.  30.  65.  31.]
+ [ 34.  27.  36.  54.  40.]]
+words
+['experts', 'expand', 'expert', 'exercising', 'exhibition', 'examples', 'expanding', 'explanation', 'expectexplore']
+words
+['centered', 'report', 'severe', 'month', 'find', 'young', 'download', 'watch', 'years', 'sky']
+words
+['red', 'visible', 'discover', 'pictured', 'back', 'years', 'view', 'sky', 'page', 'north']
+words
+['leaders', 'updated', 'ultraviolet', 'human', 'night', 'significantly', 'food', 'wave', 'related', 'understand']
+words
+['department', 'cardiovas', 'spacecraft', 'mission', 'cardioprotective', '2006', 'university', 'sky', 'increases', 'notices']
+
+
+
+
+Accuracy per Label
+
+0.0
+0.3
+0.142857142857
+0.0
+0.266666666667
+Total Accuracy
+0.136363636364
+
+
+[[ 0.  3.  2.  0.  4.]
+ [ 1.  1.  2.  1.  4.]
+ [ 0.  2.  3.  1.  3.]
+ [ 0.  3.  4.  0.  2.]
+ [ 1.  1.  3.  1.  2.]]
+words
+['elevations', 'eleifend', 'elevation', 'elevated', 'elements', 'eleven', 'elementary', 'electors', 'eli']
+words
+['email', 'government', 'secretary', 'change', 'food', 'links', 'background', '11', 'find', 'sciences']
+words
+['government', 'contents', 'global', 'assistance', 'resources', 'media', 'death', 'links', 'find', 'developed']
+words
+['turned', 'division', 'cardiovascular', 'parenting', 'blood', 'sciences', 'developed', 'called', 'issues', 'press']
+words
+['financial', 'preparing', 'approximately', 'aid', 'prepare', 'links', 'map', 'human', 'text', 'rate']
+
+
+
+
+Accuracy per Label
+
+0.190476190476
+0.216666666667
+0.14
+0.248062015504
+0.157894736842
+Total Accuracy
+0.230769230769
+
+
+[[  8.  26.   7.  32.  18.]
+ [  8.  21.  14.  22.  26.]
+ [  5.  26.  12.  26.  22.]
+ [  8.  27.  10.  31.  15.]
+ [ 13.  20.   7.  18.  33.]]
+words
+['types', 'people', 'time', 'pages', 'caused', 'security', 'back', 'day', 'activity', 'users']
+words
+['states', 'system', 'read', 'application', 'content', 'human', 'free', 'tornado', 'modifications', 'united']
+words
+['citizens', 'senate', 'early', 'corps', 'washington', 'education', 'council', '29', 'general', '80']
+words
+['impact', 'high', 'network', 'probabilities', 'tornado', '60', 'events', 'table', '5', 'warnings']
+words
+['trauma', 'act', 'found', '2011', 'families', 'year', 'state', 'dealing', 'spent', 'rate']
+
+
+
+
+Accuracy per Label
+
+0.205128205128
+0.0882352941176
+0.25641025641
+0.254901960784
+0.171428571429
+Total Accuracy
+0.217171717172
+
+
+[[  8.   3.  10.  13.   6.]
+ [  9.   5.   8.  12.   6.]
+ [  6.  12.   7.   8.   7.]
+ [  8.   6.   9.  12.   5.]
+ [  8.   8.   5.   6.  11.]]
+words
+['emanating', 'email', 'emi', 'embrace', 'embedded', 'emendationsmanuscript', 'embassy', 'emails', 'elsefrom']
+words
+['specifically', 'full', 'total', 'live', 'shot', 'part', 'text', 'captured', 'pacific', 'rate']
+words
+['experience', 'projects', 'order', 'discover', 'january', 'located', 'photograph', 'fascinating', 'cosmos', 'institute']
+words
+['discover', 'professional', 'photograph', 'featured', 'fascinating', 'cosmos', 'forest', 'text', 'written', 'universe']
+words
+['irs', 'oregon', 'order', 'comments', 'discover', 'january', 'give', '10', '21', 'services']
+
+
+
+
+Accuracy per Label
+
+0.193548387097
+0.20652173913
+0.232876712329
+0.157894736842
+0.181818181818
+Total Accuracy
+0.248201438849
+
+
+[[  6.  19.  17.   6.   8.]
+ [  7.  23.   7.  10.   9.]
+ [  7.  14.  19.   9.   7.]
+ [  4.  21.  14.   9.   8.]
+ [  7.  15.  16.   4.  12.]]
+words
+['electroencephalogram', 'electronic', 'electromagnetic', 'electronics', 'electroacupuncture', 'electrodes', 'electroconvulsive', 'electron', 'electrocutions']
+words
+['list', 'project', 'sciences', 'monthly', 'medical', 'product', 'run', 'access', 'disease', 'suggests']
+words
+['previous', 'sciences', 'senate', 'medical', 'care', 'cardiovascular', 'pictured', 'disorders', 'institute', '21']
+words
+['parents', 'november', 'medical', 'ca', 'epa', 'database', 'jump', 'policy', 'money', 'ensure']
+words
+['project', 'senate', 'medical', 'start', 'aid', 'corps', 'notices', 'americans', '300', 'point']
+
+
+
+
+Accuracy per Label
+
+0.25
+0.203883495146
+0.194736842105
+0.189873417722
+0.176470588235
+Total Accuracy
+0.225
+
+
+[[ 23.  21.  37.  15.  24.]
+ [ 20.  26.  45.   7.  22.]
+ [ 10.  19.  33.  24.  34.]
+ [ 19.  19.  37.  21.  24.]
+ [ 20.  18.  38.  12.  32.]]
+words
+['employees', 'enabled', 'enacted', 'encyclopedias', 'employer', 'employee', 'employed', 'encke', 'employment']
+words
+['red', 'date', 'ten', 'project', 'follow', 'galaxy', 'day', 'february', 'privacy', 'official']
+words
+['approximately', 'work', 'wednesday', 'full', 'activity', 'rhode', 'department', 'light', 'day', 'start']
+words
+['earlier', 'service', 'information', '11', 'events', '20', 'rhode', '30', 'february', 'weather']
+words
+['reports', 'wind', 'industry', 'december', 'island', 'select', 'hour', 'rhode', 'centers', 'rigov']
+
+
+
+
+Accuracy per Label
+
+0.3
+0.21875
+0.1875
+0.131578947368
+0.235294117647
+Total Accuracy
+0.227642276423
+
+
+[[  6.   7.   3.   5.   4.]
+ [  3.   6.   2.  12.   2.]
+ [  4.   8.   2.   8.   3.]
+ [  5.   5.   3.   9.   3.]
+ [  2.   6.   6.   4.   5.]]
+words
+['enjoyable', 'enjoyed', 'enhance', 'enjoying', 'enrichment', 'enhanced', 'enjoy', 'engraver', 'english']
+words
+['enjoyable', 'enjoyed', 'enhance', 'enjoying', 'enrichment', 'enhanced', 'enjoy', 'engraver', 'english']
+words
+['approximately', 'care', 'food', 'years', 'give', 'group', 'multiple', 'written', 'moon', 'april']
+words
+['time', '2', 'impact', 'monday', 'professional', 'astronomer', 'years', 'february', 'apod', 'written']
+words
+['pages', 'picks', 'tools', 'official', 'early', 'study', 'february', 'offices', 'check', 'related']
+
+
+
+
+Accuracy per Label
+
+0.166666666667
+0.243902439024
+0.237288135593
+0.220588235294
+0.106382978723
+Total Accuracy
+0.221757322176
+
+
+[[  4.  10.  14.  15.   5.]
+ [  7.   7.  13.  12.   9.]
+ [  6.   8.  13.  16.   5.]
+ [  5.   8.  12.  12.  11.]
+ [  2.   8.   7.  13.  17.]]
+words
+['enter', 'enhancing', 'ensure', 'engaging', 'enlarged', 'energysaversgov', 'engage', 'engineerus', 'enhanced']
+words
+['tornadoes', 'network', 'messages', 'report', 'mod', 'moderate', 'weather', 'category', 'center', '40']
+words
+['county', 'navigation', 'live', 'applications', 'january', 'states', 'department', 'tools', 'center', '40']
+words
+['updated', 'john', 'require', 'event', 'collected', 'advisory', '1', 'plugin', 'latest', 'provisions']
+words
+['internet', 'path', 'project', 'reside', '10', 'file', 'clear', '300', 'files', 'official']
+
+
+
+
+Accuracy per Label
+
+0.333333333333
+0.166666666667
+0.307692307692
+0.181818181818
+0.111111111111
+Total Accuracy
+0.266666666667
+
+
+[[ 3.  4.  4.  2.  2.]
+ [ 1.  5.  3.  2.  4.]
+ [ 1.  6.  1.  3.  4.]
+ [ 2.  5.  3.  4.  1.]
+ [ 2.  4.  2.  0.  7.]]
+words
+['edsa', 'edmundscom', 'edition', 'editions', 'editorial', 'educations', 'editors', 'edison', 'edith']
+words
+['90', 'laboratory', 'full', 'network', 'food', 'moderate', 'staff', 'college', '5', 'patients']
+words
+['register', 'observed', 'notice', 'robert', 'group', '16', '8', 'disease', 'inmate', 'patients']
+words
+['boston', 'produced', 'historic', 'human', 'group', 'dioxide', 'benefits', 'part', 'individual', 'case']
+words
+['tips', 'early', 'including', 'active', 'street', 'save', 'money', 'ensure', 'mission', 'health']
+
+
+
+
+Accuracy per Label
+
+0.15
+0.296875
+0.222222222222
+0.181818181818
+0.161290322581
+Total Accuracy
+0.228658536585
+
+
+[[  6.  19.  12.  14.  15.]
+ [ 11.  10.   7.  16.  22.]
+ [  6.  15.  16.  14.  15.]
+ [  9.  11.  10.  19.  17.]
+ [  8.   9.   9.  14.  24.]]
+words
+['easier', 'eastern', 'ease', 'east', 'earthwork', 'earthside', 'easily', 'earthshine', 'earths']
+words
+['easier', 'eastern', 'ease', 'east', 'earthwork', 'earthside', 'easily', 'earthshine', 'earths']
+words
+['httpwwwwhitehousegovvideo', 'comments', 'discussion', 'september', 'ondemand', 'facebook', 'click', 'website', 'disk', 'associations']
+words
+['great', 'negative', 'september', 'economic', 'engineering', 'february', 'relief', 'division', 'activity', 'lead']
+words
+['financial', 'atmosphere', 'law', 'december', 'clear', 'materials', 'americans', 'standard', 'individual', 'access']
+
+
+
+
+Accuracy per Label
+
+0.217391304348
+0.247126436782
+0.201438848921
+0.142857142857
+0.187969924812
+Total Accuracy
+0.210313447927
+
+
+[[ 30.  43.  56.  19.  50.]
+ [ 29.  35.  52.  27.  55.]
+ [ 22.  37.  55.  32.  52.]
+ [ 26.  31.  58.  31.  52.]
+ [ 31.  28.  57.  24.  57.]]
+words
+['endorsed', 'endurancetrained', 'endorse', 'endangered', 'end', 'endocrinol', 'endowment', 'endorsement', 'ended']
+words
+['wednesday', 'healthday', 'states', 'information', 'medlineplus', 'page', 'education', 'study', '10', 'united']
+words
+['states', 'information', 'approximately', 'human', 'hyperlinks', 'exercise', 'school', 'end', 'endorsement', 'evidence']
+words
+['effects', 'system', 'product', 'safety', 'consumer', 'explain', 'study', 'named', 'today', 'health']
+words
+['act', 'congress', 'community', 'start', 'email', 'ten', 'change', 'car', '12', 'communities']
+
+
+
+
+Accuracy per Label
+
+0.324324324324
+0.142857142857
+0.157894736842
+0.21568627451
+0.15
+Total Accuracy
+0.201030927835
+
+
+[[ 12.   4.   6.  11.   6.]
+ [  5.   4.   9.  11.  10.]
+ [ 11.   8.   5.   8.   7.]
+ [  5.   7.   8.  10.   9.]
+ [  4.   5.  10.  11.   8.]]
+words
+['electroencephalogram', 'element', 'electronic', 'electronically', 'elementary', 'ejected', 'electronics', 'elegant', 'electrodes']
+words
+['replace', 'listed', 'country', 'san', 'west', 'select', 'overview', 'type', 'transportation', 'words']
+words
+['fax', 'war', 'food', '15', 'sector', 'ways', 'perform', 'clouds', 'released', 'sky']
+words
+['participate', 'easy', 'online', 'resource', 'offer', 'early', 'additional', 'call', 'anniversary', 'vice']
+words
+['military', 'letter', 'open', 'picks', 'special', 'elementary', 'notices', 'force', 'students', 'usda']
+
+
+
+
+Accuracy per Label
+
+0.161764705882
+0.174311926606
+0.236363636364
+0.228070175439
+0.179012345679
+Total Accuracy
+0.215210355987
+
+
+[[ 11.  19.  39.  26.  29.]
+ [ 13.  23.  31.  19.  38.]
+ [ 16.  25.  35.  18.  30.]
+ [ 14.  24.  35.  25.  26.]
+ [ 14.  18.  25.  26.  39.]]
+words
+['eclipse', 'echocardiography', 'ecliptic', 'ecologist', 'echocardiograp', 'eclipsed', 'ecological', 'echocardiogra', 'ecology']
+words
+['relations', 'government', 'support', 'emerging', 'point', 'finally', 'share', 'fax', 'rev', 'seattle']
+words
+['natural', 'link', 'policies', 'sci', 'november', 'magnetic', 'september', 'rev', 'section', 'complex']
+words
+['series', 'result', 'training', 'investigated', 'website', 'forms', 'examined', 'living', 'oxford', 'apply']
+words
+['online', 'visitors', 'link', 'redirected', 'application', 'appearance', 'mapcontact', 'quick', '27', 'seattle']
+
+
+
+
+Accuracy per Label
+
+0.240837696335
+0.172131147541
+0.199115044248
+0.205607476636
+0.177358490566
+Total Accuracy
+0.233777777778
+
+
+[[ 46.  21.  45.  66.  47.]
+ [ 37.  25.  47.  64.  52.]
+ [ 45.  23.  52.  61.  44.]
+ [ 30.  27.  50.  68.  50.]
+ [ 33.  26.  32.  62.  72.]]
+words
+['epederuwashingtonedu', 'epa', 'entity', 'episodes', 'enzyme', 'epimetheus', 'ephemeral', 'environments', 'epidemiology']
+words
+['low', 'network', 'report', 'visit', '60', 'status', 'event', '70', 'national', 'increased']
+words
+['updated', 'personal', 'free', 'reported', 'current', 'address', 'execute', 'released', 'mission', 'space']
+words
+['volcanic', 'people', 'browser', '4', 'health', 'related', 'regulatory', 'national', 'center', '40']
+words
+['network', 'report', 'tornado', 'states', 'events', 'status', 'iwin', 'event', 'warnings', 'table']
+
+
+
+
+Accuracy per Label
+
+0.2
+0.3
+0.136363636364
+0.0625
+0.259259259259
+Total Accuracy
+0.28
+
+
+[[ 3.  6.  3.  1.  7.]
+ [ 1.  4.  4.  2.  9.]
+ [ 3.  5.  9.  1.  2.]
+ [ 3.  2.  2.  8.  5.]
+ [ 5.  3.  4.  4.  4.]]
+words
+['encourage', 'encountering', 'enceladus', 'enclosures', 'enables', 'encke', 'encounter', 'enact', 'fenwick']
+words
+['forecaster', 'event', 'storm', 'mod', 'moderate', 'interactive', 'center', 'watch', '5', 'category']
+words
+['carbon', 'prediction', 'tornadoes', 'probability', 'storm', 'tax', '1', 'include', 'ability', 'weather']
+words
+['states', 'video', 'surface', 'notices', '10', 'tax', 'requirements', '1', 'sciences', '5']
+words
+['act', 'obama', 'union', 'commitment', 'sign', 'president', 'interactive', 'tax', 'executive', 'watch']
+
+
+
+
+Accuracy per Label
+
+0.190476190476
+0.243243243243
+0.196078431373
+0.15
+0.219178082192
+Total Accuracy
+0.196875
+
+
+[[  8.  18.  10.  12.  16.]
+ [ 10.  15.   7.  19.  13.]
+ [  9.  19.  10.  12.  14.]
+ [  8.  11.  13.  16.  16.]
+ [  7.  11.  11.  21.  14.]]
+words
+['eventually', 'everyday', 'events', 'evening', 'event', 'evaluation', 'excited', 'evolution', 'evident']
+words
+['versus', 'rocky', 'report', 'human', 'year', 'external', 'learn', 'department', 'land', '2012']
+words
+['office', 'reported', 'practices', 'media', 'learn', '2', 'recent', 'application', 'located', '2012']
+words
+['consistent', 'website', 'human', 'healthy', 'hhs', 'external', 'connect', 'hyperlink', 'guide', 'department']
+words
+['fas', 'catalog', 'nasas', 'usa', 'process', 'uscis', 'supernova', 'swans', 'dust', 'page']
+
+
+
+
+Accuracy per Label
+
+0.272727272727
+0.0
+0.142857142857
+0.222222222222
+0.5
+Total Accuracy
+0.289473684211
+
+
+[[ 3.  0.  1.  2.  2.]
+ [ 1.  2.  3.  1.  1.]
+ [ 4.  2.  1.  1.  0.]
+ [ 2.  2.  0.  4.  0.]
+ [ 1.  1.  2.  1.  1.]]
+words
+['poor', 'prospective', 'cases', 'fourth', 'radiation', 'biotechnology', 'supported', 'courts', 'brown', 'absorption']
+words
+['diverse', 'divemaster', 'diverging', 'diver', 'divalent', 'divergent', 'div', 'diverselandscape', 'divers']
+words
+['makes', 'inform', 'citations', 'meetings', 'presidential', 'mind', 'extramural', 'partnership', 'nominations', 'abstract']
+words
+['density', 'photos', 'write', 'foreclosure', 'helpful', '58', 'massive', 'society', 'chicago', 'blow']
+words
+['cassini', 'hyperlink', 'article', 'hhs', 'inmate', 'solstice', 'rings', 'consistent', 'hyperlinked', 'appearance']
+
+
+
+
+Accuracy per Label
+
+0.225352112676
+0.2272
+0.225854383358
+0.191810344828
+0.173435260392
+Total Accuracy
+0.252010723861
+
+
+[[ 224.  142.  152.   89.  363.]
+ [ 219.  150.  143.  111.  347.]
+ [ 225.  108.  160.  113.  364.]
+ [ 192.  127.  142.   89.  420.]
+ [ 134.   98.   76.   62.  599.]]
