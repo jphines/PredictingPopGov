@@ -1,0 +1,59 @@
+\documentclass[11pt]{article}
+\setlength{\oddsidemargin}{0pt}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{listings}
+
+\title{Predicting Popular Government, an analysis of states}
+
+\author{Justin Hines\\
+{\tt jph2149@columbia.edu}
+}
+
+\begin{document}
+
+\maketile
+
+\section{Abstract}
+
+The term popularity in the modern of era takes on new heights, especially when the exchange of information is instantaneous.  The advent of social networks, such as Twitter and Facebook have forever changed how information is digested by the masses. The virality of information the internet, and its flow has made and destroyed a variety of of products, issues, and companies.  In this fold has come the explotation of content in attempts to increase its virality. Content now is the most commidified it has ever been. With this commidification of content by content providers has led to the expotation of information, at the cost of clarity, correctness, and quality to better attract end-users.  Popularity now is a means of sucess based on the merits of "likes", upvotes, retweets, or clicks. 
+
+The demand of our increasingly digital world and the instantaneous form of information has forced our government to enter the digital world and a content provider.  The Obama campaign is one such example of a viral 
+campaign about politics and the government.  The federal government's public image is as subject to the virality of information, if not more so thatn any entity. As a result, the government has been increasing the amount of content on the internet, and trying to make that more commidified by targeting its end auidence, as opposed to providing steady factual content (e.g President Obama's twitter feed). 
+
+As a result, is it possible to generate a statistically insight on the popularity of government articles on the internet.  Does the government cater to end-users through the content it publishes.  If so, it would seem reasonably to develop a statiscal trend of such content, and predict what articles will be popular, and how popular they will be.
+
+
+
+\section {Data}
+
+The initial dataset for this project came from an achieved data set 
+provided by usa.gov in conjunction with Bit.ly.  The dataset, which can 
+be found at http://bitly.measuredvoice.com/bitly_archive/?C=M;O=D and 
+additional information at http://www.usa.gov/About/developer-resources/1usagov.shtml#data, consists of a variety of data points about end-user 
+clicks on a shorted governmental link.  Most governmental websites publish information through these links as a means of collecting analytics. 
+The data is stored as a pub/sub stream of JSON entries, one per line, that represent real-time clicks when the data is collected.  In the achieved 
+data, the data are stored similarly.  An entry consists of a JSON 
+dictionary with a variety of different data points, including with interest to us, a bitly global hash of link, the end link, and the location where that click came from. 
+
+The dataset includes entires from December 2011 to present day.  For the sake of sanity a subset of the data was used, from January 1st, 2012 to April 30th, 2012. 
+
+While this collection is certainly interesting, it provides no real insights on how information is being shared by what states, and what information is popular where, and why.  In addition, this information provides no analysis on the end sight beyond its link.
+
+In order to clean the dataset, a script was written that would filter out an clicks not occuring the United States (this was defined if the data 
+entity contained an originating information, if that location was not in one of the fify United States).  In addition, in order to collect more information about the end site, the site at the link destination was downloaded, and filtered for content only contained in the title or in paragraph tags.  Any sites that that did not have over fifty words between the title 
+and in paragraphs was automatically excluded.  A counter was kept for each time a link was seen being clicked by an individual state, in addition to a global counter that kept track of everytime a link was clicked, regardless of what state. 
+
+
+In order to apply some meaning on the popularity of content (a strict threshold count was excluded as referring state populations differ dramaticaly), links were sorted by popularity in terms of number of clicks, and then divided into 5 equal labels based on link frequency, in order from lowest to highest, low, medium, high, popular, and highly popular. The author recongizes this a rather naive method of applying labels, as an article in highly popular and high may differ by a non-statsically significant amount, but rather both lie on a boundary.  For sanity however, this method was applied.
+
+The resulting data was stored in tabular separatred value files, grouped by state, with the first entry containing the global hash, location, number of clicks, and link content.  
+
+\Section{System}
+For simplicity a Bernoulli model of word occurrence in documents was used to generate a Naive Bayes Classification of labels, where each document is moduled as vector with the probablity, or weights, based on the probability of each word occuring in a document independently.  A Naive Bayes classifer was choosen for its relative cheap computation and scalabity over other models. In addition, the Naive Bayes model is easy to update with new training data up simply adjusting these counts and the resulting weights.  
+That is, we represented each document by a binary vector over all words and modeled the probability of each word occurring in a document as an independent coin flip. There are, of course, many other document representations one might consider, along with their corresponding likelihood models. Choosing Which Naive Bayes to use is largely an empirical matter.
+Training a naive Bayes classifier is computationally cheap and scalable. Using a frequentist estimate for the Bernoulli model, this amounts to simply counting the number of documents of each class containing each word in our dictionary. It’s also easy to update the model upon receiving new training data by simply incrementing these counts.
+Likewise, making predictions with a trained naive Bayes model is also computationally cheap, although this perhaps isn’t immediately obvious. With a simple manipulation of the posterior class probabilities, we saw that the log-odds are linear and sparse in the document features. Details are in the slides as well as David Lewis’ review of Naive Bayes at Forty.
+The name “naive Bayes” is a bit of misnomer. While the independence assumption is certainly untrue, in practice naive Bayes works reasonably well and turns out be Not So Stupid After All. Likewise, there’s nothing necessarily Bayesian about simply using Bayes’ rule—that is, there’s no point at which one must take a subjective view of probabilities to employ naive Bayes.
+This being said, simple frequentist estimates of model parameters can often result in overfitting. For example, in the Enron email data we looked at, there aren’t any spam messages containing the company’s name. Thus, a simple frequentist estimate might conclude that it’s impossible for the word “Enron” to occur in future spam, resulting in an easily gamed classifier. Smoothing estimates by adding pseudocounts to observed word occurrences (e.g., pretending each word occurred at least once in each document class) is one potential solution to this problem.
+In order to generate a prediction system based on content, a Multi-Class Bernoulli Naive Bayes Classifer was used.  A Bernoulli Naive Bayes Classifer
