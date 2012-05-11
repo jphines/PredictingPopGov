@@ -3,5 +3,8 @@
 *.swp
 *.swo
 usagov_data/
+<<<<<<< HEAD
 log/
+=======
+>>>>>>> 636430b2bc0fc16a28217d820f0c7c28d762eeab
 usagov_data_monthly/
