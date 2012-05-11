@@ -1,20 +1,30 @@
 words
-['ccharp32641732', 'ccharp32686756', 'ccharp32621508', 'ccharp32672948', 'ccharp32633092', 'ccharp32612852', 'ccharp32686052', 'ccharp32696420', 'ccharp32616228']
+['schools', 'necessarily', 'introduction', 'sec', 'exchange', 'proportion', 'accurate', 'reviewed', 'curr', 'dentistry']
 words
-['ccharp29060948', 'ccharp27933444', 'ccharp20098868', 'ccharp32144100', 'ccharp54869620', 'ccharp47463284', 'ccharp37023396', 'ccharp54955732', 'ccharp47582756', 'ccharp69242068']
+['birth', 'red', 'hours', 'survival', 'cardiovascular', 'reporting', 'point', 'processes', 'biological', 'york']
 words
-['ccharp35589124', 'ccharp67988372', 'ccharp36942468', 'ccharp67552916', 'ccharp68597252', 'ccharp32612388', 'ccharp67802260', 'ccharp20225636', 'ccharp20228724', 'ccharp67954228']
+['natural', 'owners', 'produced', 'cardiovascular', 'county', '24', '22', 'reported', 'complex', 'obes']
 words
-['ccharp45154692', 'ccharp32505028', 'ccharp52746964', 'ccharp56181364', 'ccharp18650708', 'ccharp30720900', 'ccharp27847396', 'ccharp62844932', 'ccharp44169876', 'ccharp18608740']
+['ri', 'investigated', 'methods', 'contact', 'conditions', 'adults', 'issues', 'design', 'recent', 'discuss']
 words
-['ccharp43190644', 'ccharp43724004', 'ccharp43797428', 'ccharp43728564', 'ccharp43066900', 'ccharp43090212', 'ccharp42998996', 'ccharp43859812', 'ccharp43595748', 'ccharp42167572']
+['asked', 'red', 'answers', 'history', 'cardiovascular', 'county', '13', 'road', 'enter', 'present']
 
 
 
 
-[[0.0010005003335749052, set(['ccharp28220884'])], [0.0010005003335749052, set(['ccharp29965156'])], [0.0010005003335749052, set(['ccharp28904388'])], [0.0010005003335749052, set(['ccharp131329348'])], [0.0010005003335749052, set(['ccharp86834132'])], [0.0010005003335749052, set(['ccharp56782260'])], [0.0010005003335749052, set(['ccharp61912084'])], [0.0010005003335749052, set(['ccharp57927732'])], [0.0010005003335749052, set(['ccharp22257620'])], [0.0010005003335749052, set(['ccharp18746196'])]]
-[[   0.    0.    0.    0.  346.]
- [   0.    0.    0.    0.  346.]
- [   0.    0.    0.    0.  346.]
- [   0.    0.    0.    0.  346.]
- [   0.    0.    0.    0.  345.]]
+Accuracy per Label
+
+0.228723404255
+0.192307692308
+0.228426395939
+0.204379562044
+0.164516129032
+Total Accuracy
+0.224888888889
+
+
+[[ 43.  30.  45.  56.  51.]
+ [ 30.  37.  38.  58.  62.]
+ [ 38.  27.  47.  51.  62.]
+ [ 38.  35.  39.  52.  61.]
+ [ 39.  27.  28.  57.  74.]]

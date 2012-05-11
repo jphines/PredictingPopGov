@@ -1,20 +1,30 @@
 words
-['ccharp29937716', 'ccharp29787684', 'ccharp29442340', 'ccharp29860548', 'ccharp29790612', 'ccharp29689924', 'ccharp29782948', 'ccharp29894932', 'ccharp29774212']
+['improvement', 'experience', 'methods', 'born', 'evaluate', 'autologous', 'rights', 'share', '28', 'opportunities']
 words
-['ccharp19155044', 'ccharp65321076', 'ccharp41745748', 'ccharp41722340', 'ccharp19520836', 'ccharp65318100', 'ccharp42361636', 'ccharp27978980', 'ccharp23250468', 'ccharp23177428']
+['shows', 'pages', 'laws', 'medical', 'named', 'surface', 'killed', 'type', 'healthday', 'factors']
 words
-['ccharp65384228', 'ccharp34750852', 'ccharp19578164', 'ccharp50402484', 'ccharp103188004', 'ccharp65446612', 'ccharp23157236', 'ccharp64720100', 'ccharp34659492', 'ccharp65087476']
+['rings', 'fema', 'plasma', 'assistance', 'quality', 'save', '19', 'gas', '50', 'requirements']
 words
-['ccharp23194340', 'ccharp44557444', 'ccharp50591748', 'ccharp44446932', 'ccharp44460452', 'ccharp44455700', 'ccharp50880100', 'ccharp65052612', 'ccharp29374052', 'ccharp50516324']
+['kids', '90', 'significantly', 'ca', 'healthday', 'association', 'february', 'parks', '50', 'called']
 words
-['ccharp40836676', 'ccharp72915972', 'ccharp38989268', 'ccharp40816276', 'ccharp39380244', 'ccharp38185396', 'ccharp39097668', 'ccharp39846612', 'ccharp38853844', 'ccharp39830628']
+['steps', 'summer', 'start', 'eating', 'disorders', '29', 'february', '50', 'psychol', 'requirements']
 
 
 
 
-[[0.0010005003335802343, set(['ccharp55069780'])], [0.0010005003335802343, set(['ccharp52954004'])], [0.0010005003335802343, set(['ccharp77820772'])], [0.0010005003335802343, set(['ccharp61301748'])], [0.0010005003335802343, set(['ccharp20922260'])], [0.0010005003335802343, set(['ccharp45945460'])], [0.0010005003335802343, set(['ccharp51277348'])], [0.0010005003335802343, set(['ccharp18225316'])], [0.0010005003335802343, set(['ccharp18759636'])], [0.0010005003335802343, set(['ccharp29069668'])]]
-[[   0.    0.    0.    0.  176.]
- [   0.    0.    0.    0.  176.]
- [   0.    0.    0.    0.  176.]
- [   0.    0.    0.    0.  176.]
- [   0.    0.    0.    0.  175.]]
+Accuracy per Label
+
+0.229508196721
+0.189393939394
+0.228571428571
+0.22
+0.148936170213
+Total Accuracy
+0.248333333333
+
+
+[[ 28.  25.  24.  22.  21.]
+ [ 24.  40.  12.  16.  28.]
+ [ 26.  23.  20.  20.  31.]
+ [ 28.  21.  25.  23.  23.]
+ [ 16.  23.  24.  19.  38.]]

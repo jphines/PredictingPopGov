@@ -9,9 +9,13 @@ path = '../tsv/'
 def delete():
   for state in states:
     dst = path + state + '/'
-    for dir in  dirs:
-      os.remove(dst+dir+'/out.tsv')
-      os.rmdir(dst+dir)
+    for dir in dirs:
+      f = dst+dir+'/out.tsv'
+      fs = dst+dir
+      if os.path.exists(f):
+        os.remove(f)
+      if os.path.exists(fs): 
+        os.rmdir(fs)
 
 if __name__ == '__main__':
   delete()

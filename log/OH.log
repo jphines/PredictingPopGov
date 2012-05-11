@@ -1,20 +1,30 @@
 words
-['ccharp29040004', 'ccharp29052852', 'ccharp29137412', 'ccharp29157924', 'ccharp28992244', 'ccharp29034884', 'ccharp29009044', 'ccharp29091428', 'ccharp28996276']
+['elevations', 'eleifend', 'elevation', 'elevated', 'elements', 'eleven', 'elementary', 'electors', 'eli']
 words
-['ccharp38923620', 'ccharp22078164', 'ccharp51461924', 'ccharp52127444', 'ccharp22253636', 'ccharp21418660', 'ccharp51628500', 'ccharp21907300', 'ccharp21429156', 'ccharp22076804']
+['applications', 'complete', 'provided', 'safety', 'hhs', 'user', 'links', 'subject', 'services', 'publication']
 words
-['ccharp45935156', 'ccharp34470164', 'ccharp22370772', 'ccharp63853876', 'ccharp42296420', 'ccharp34370468', 'ccharp44184596', 'ccharp63612260', 'ccharp22366180', 'ccharp64516244']
+['power', 'projects', 'involved', 'standard', 'resources', 'primary', 'guide', 'links', 'text', 'specific']
 words
-['ccharp64598516', 'ccharp42142500', 'ccharp65151236', 'ccharp28429220', 'ccharp50386692', 'ccharp64033540', 'ccharp34241540', 'ccharp57335348', 'ccharp50519172', 'ccharp64159668']
+['participate', 'pennsylvania', 'established', 'division', 'date', 'pa', 'nasa', 'issued', 'member', 'press']
 words
-['ccharp48568260', 'ccharp35652500', 'ccharp48805428', 'ccharp20529444', 'ccharp54303620', 'ccharp18764756', 'ccharp41745748', 'ccharp20392900', 'ccharp18824740', 'ccharp44268724']
+['provided', 'live', 'prepare', 'hhs', 'application', 'grants', 'click', 'services', 'specific', 'visitors']
 
 
 
 
-[[0.0020010006671640213, set(['ccharp47014708'])], [0.0020010006671640213, set(['ccharp27888516'])], [0.0020010006671640213, set(['ccharp34702580'])], [0.0020010006671640213, set(['ccharp50408692'])], [0.0020010006671640213, set(['ccharp31516068'])], [0.0020010006671640213, set(['ccharp34561844'])], [0.0020010006671640213, set(['ccharp36792836'])], [0.0020010006671640213, set(['ccharp30027332'])], [0.0020010006671640213, set(['ccharp24695124'])], [0.0020010006671640213, set(['ccharp37670740'])]]
-[[   0.    0.    0.    0.  135.]
- [   0.    0.    0.    0.  135.]
- [   0.    0.    0.    0.  135.]
- [   0.    0.    0.    0.  135.]
- [   0.    0.    0.    0.  133.]]
+Accuracy per Label
+
+0.1875
+0.2
+0.174311926606
+0.22619047619
+0.206896551724
+Total Accuracy
+0.226373626374
+
+
+[[  6.  17.  19.  19.  30.]
+ [  8.  15.  29.  12.  27.]
+ [  5.  21.  22.  17.  26.]
+ [  4.  15.  24.  23.  25.]
+ [  9.  17.  15.  13.  37.]]

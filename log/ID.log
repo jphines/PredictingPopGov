@@ -1,20 +1,30 @@
 words
-['ccharp29398308', 'ccharp28869748', 'ccharp29341668', 'ccharp31693524', 'ccharp31672052', 'ccharp31498004', 'ccharp32100148', 'ccharp30128676', 'ccharp29442340']
+['epederuwashingtonedu', 'episodes', 'equipment', 'epigenetics', 'epimetheus', 'epidemiologist', 'equilibrium', 'epidemiology', 'equally']
 words
-['ccharp19657188', 'ccharp133123972', 'ccharp44122964', 'ccharp20306180', 'ccharp20922260', 'ccharp22078164', 'ccharp22859252', 'ccharp57301748', 'ccharp43976932', 'ccharp42301236']
+['updates', 'reported', 'attacker', 'current', 'view', '12', 'ht5281', 'research', 'attack', 'page']
 words
-['ccharp41780836', 'ccharp44007828', 'ccharp55195652', 'ccharp42868964', 'ccharp42786724', 'ccharp48972756', 'ccharp49461140', 'ccharp57285172', 'ccharp45143380', 'ccharp20360964']
+['generally', 'skip', 'current', 'address', 'learn', 'food', 'economic', 'department', '1', 'home']
 words
-['ccharp21581316', 'ccharp20905572', 'ccharp48400452', 'ccharp34449540', 'ccharp19996036', 'ccharp42196084', 'ccharp44226820', 'ccharp21581092', 'ccharp57234340', 'ccharp34047924']
+['visible', 'increase', 'focus', 'full', '2009', 'high', 'center', 'safety', '40', 'details']
 words
-['ccharp27716692', 'ccharp34454212', 'ccharp42908548', 'ccharp57155828', 'ccharp49248740', 'ccharp43090212', 'ccharp32981028', 'ccharp43797428', 'ccharp35500452', 'ccharp55254804']
+['generally', 'change', 'view', 'captured', 'file', 'recent', 'dark', 'located', 'years', 'loss']
 
 
 
 
-[[0.0, set(['ccharp31672052'])], [0.0, set(['ccharp74348036'])], [0.0, set(['ccharp28869748'])], [0.0, set(['ccharp40837556'])], [0.0, set(['ccharp21089796'])], [0.0, set(['ccharp36091668'])], [0.0, set(['ccharp44285796'])], [0.0, set(['ccharp19271748'])], [0.0, set(['ccharp46566180'])], [0.0, set(['ccharp37604916'])]]
-[[ 29.   0.   0.   0.   0.]
- [ 29.   0.   0.   0.   0.]
- [ 29.   0.   0.   0.   0.]
- [ 29.   0.   0.   0.   0.]
- [ 29.   0.   0.   0.   0.]]
+Accuracy per Label
+
+0.346153846154
+0.105263157895
+0.130434782609
+0.272727272727
+0.16
+Total Accuracy
+0.211538461538
+
+
+[[ 9.  2.  3.  3.  4.]
+ [ 4.  2.  8.  3.  4.]
+ [ 4.  7.  3.  3.  4.]
+ [ 3.  5.  6.  1.  6.]
+ [ 6.  3.  3.  1.  7.]]

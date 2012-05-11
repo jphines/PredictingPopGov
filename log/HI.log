@@ -1,20 +1,30 @@
 words
-['ccharp30268420', 'ccharp32491940', 'ccharp31687492', 'ccharp30843396', 'ccharp32100148', 'ccharp30804836', 'ccharp32136628', 'ccharp32609972', 'ccharp32605556']
+['enjoy', 'enter', 'enormous', 'entered', 'ensure', 'enlisted', 'engaging', 'entire', 'entities']
 words
-['ccharp61729812', 'ccharp44008372', 'ccharp43800852', 'ccharp23048004', 'ccharp61956628', 'ccharp31687492', 'ccharp30843396', 'ccharp61810212', 'ccharp28326836', 'ccharp43782708']
+['study', 'work', 'report', 'change', 'nation', 'area', 'full', 'service', 'view', 'places']
 words
-['ccharp48596532', 'ccharp23283044', 'ccharp48788324', 'ccharp45196196', 'ccharp27813892', 'ccharp46165364', 'ccharp32136628', 'ccharp45305300', 'ccharp28025012', 'ccharp39333348']
+['appropriation', 'content', 'responsible', 'easy', 'discover', 'address', 'constitutional', 'detailed', '24', 'encountered']
 words
-['ccharp21514916', 'ccharp53655444', 'ccharp34449540', 'ccharp42817028', 'ccharp55249620', 'ccharp65105668', 'ccharp20392900', 'ccharp39325108', 'ccharp19276036', 'ccharp43608084']
+['evolving', 'travel', 'operations', 'accomplishments', 'generally', 'costs', 'enzyme', 'plan', 'view', 'taxpayers']
 words
-['ccharp21080452', 'ccharp42964740', 'ccharp18945220', 'ccharp18764756', 'ccharp41866516', 'ccharp65318100', 'ccharp37256148', 'ccharp37037460', 'ccharp37084548', 'ccharp37229172']
+['featured', 'explanation', 'written', 'cosmos', 'discover', 'astronomer', 'act', 'image', 'universe', 'photograph']
 
 
 
 
-[[0.0, set(['ccharp43787108'])], [0.0, set(['ccharp32965956'])], [0.0, set(['ccharp51057780'])], [0.0, set(['ccharp50981284'])], [0.0, set(['ccharp37349940'])], [0.0, set(['ccharp29675620'])], [0.0, set(['ccharp16970292'])], [0.0, set(['ccharp18074260'])], [0.0, set(['ccharp20307924'])], [0.0, set(['ccharp48462660'])]]
-[[ 32.   0.   0.   0.   0.]
- [ 32.   0.   0.   0.   0.]
- [ 32.   0.   0.   0.   0.]
- [ 32.   0.   0.   0.   0.]
- [ 31.   0.   0.   0.   0.]]
+Accuracy per Label
+
+0.176470588235
+0.178571428571
+0.214285714286
+0.315789473684
+0.136363636364
+Total Accuracy
+0.21
+
+
+[[ 3.  5.  3.  6.  3.]
+ [ 3.  7.  4.  2.  4.]
+ [ 4.  6.  0.  5.  5.]
+ [ 6.  6.  3.  3.  2.]
+ [ 1.  4.  4.  3.  8.]]

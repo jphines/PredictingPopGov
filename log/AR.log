@@ -1,20 +1,30 @@
 words
-['ccharp28382452', 'ccharp28155428', 'ccharp28363492', 'ccharp28076388', 'ccharp28323268', 'ccharp28349908', 'ccharp28114644', 'ccharp28992244', 'ccharp28363060']
+['enhance', 'enjoy', 'enhancing', 'enlarged', 'engraver', 'engineering', 'enjoyable', 'enforcement', 'enhanced']
 words
-['ccharp21382500', 'ccharp61843380', 'ccharp62991492', 'ccharp40799316', 'ccharp34723348', 'ccharp62008084', 'ccharp46466740', 'ccharp19394356', 'ccharp62974580', 'ccharp62171044']
+['effective', 'space', 'parks', 'jupiter', 'budget', 'called', 'united', 'including', 'nation', 'education']
 words
-['ccharp37011732', 'ccharp31517028', 'ccharp31564036', 'ccharp43797300', 'ccharp28045140', 'ccharp18674836', 'ccharp44576932', 'ccharp32609972', 'ccharp40532516', 'ccharp39846612']
+['clouds', '12', '5', 'version', 'listed', 'including', '2010', 'years', 'april', '2011']
 words
-['ccharp33264996', 'ccharp40841188', 'ccharp19271748', 'ccharp41738020', 'ccharp19015620', 'ccharp19103300', 'ccharp61912084', 'ccharp23282676', 'ccharp40532084', 'ccharp32716564']
+['tornadoes', 'low', 'status', 'weather', 'warnings', 'united', 'issuing', '2011', 'administration', 'increased']
 words
-['ccharp40753492', 'ccharp37073012', 'ccharp35500452', 'ccharp46461812', 'ccharp45230916', 'ccharp38030068', 'ccharp40816276', 'ccharp39830628', 'ccharp44356932', 'ccharp41646452']
+['active', 'give', 'member', 'participate', 'comments', 'discussion', 'facebook', 'click', 'announces', 'years']
 
 
 
 
-[[0.0010005003335820106, set(['ccharp14744340'])], [0.0010005003335820106, set(['ccharp22335652'])], [0.0010005003335820106, set(['ccharp23777092'])], [0.0010005003335820106, set(['ccharp40787156'])], [0.0010005003335820106, set(['ccharp47737700'])], [0.0010005003335820106, set(['ccharp33396084'])], [0.0010005003335820106, set(['ccharp21847604'])], [0.0010005003335820106, set(['ccharp48434212'])], [0.0010005003335820106, set(['ccharp46633732'])], [0.0010005003335820106, set(['ccharp71587572'])]]
-[[  0.   0.   0.   0.  44.]
- [  0.   0.   0.   0.  44.]
- [  0.   0.   0.   0.  44.]
- [  0.   0.   0.   0.  44.]
- [  0.   0.   0.   0.  44.]]
+Accuracy per Label
+
+0.461538461538
+0.178571428571
+0.166666666667
+0.22
+0.128205128205
+Total Accuracy
+0.216216216216
+
+
+[[  6.   5.   3.  11.   5.]
+ [  3.   6.   1.  10.  10.]
+ [  2.   4.   4.  13.   7.]
+ [  2.  10.   5.   6.   7.]
+ [  0.   3.   5.  10.  10.]]

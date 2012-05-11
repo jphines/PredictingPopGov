@@ -1,20 +1,30 @@
 words
-['ccharp30538724', 'ccharp30734852', 'ccharp30168692', 'ccharp30489108', 'ccharp30535652', 'ccharp26944996', 'ccharp30229764', 'ccharp30528148', 'ccharp30719908']
+['summer', 'born', 'american', 'north', 'education', 'intern', 'form', '17', 'astronaut', '80']
 words
-['ccharp42310404', 'ccharp44998612', 'ccharp62999172', 'ccharp34047924', 'ccharp20339972', 'ccharp22944628', 'ccharp62008084', 'ccharp29962644', 'ccharp22993284', 'ccharp49051172']
+['frb', 'federal', 'stronger', 'reserve', 'increase', 'part', 'paper', 'review', 'press', 'taxpayers']
 words
-['ccharp43478340', 'ccharp42714804', 'ccharp43274676', 'ccharp42291476', 'ccharp43986292', 'ccharp38989268', 'ccharp42796148', 'ccharp42930996', 'ccharp42801924', 'ccharp43460404']
+['shows', 'studies', 'standard', 'northern', 'explain', 'trust', 'continue', 'captured', 'agencies', 'lead']
 words
-['ccharp43451700', 'ccharp21627092', 'ccharp57366180', 'ccharp43035588', 'ccharp33020276', 'ccharp21239108', 'ccharp20961060', 'ccharp21324612', 'ccharp58297380', 'ccharp21236660']
+['spend', 'spending', 'city', 'internal', 'produced', 'size', 'save', 'international', 'important', 'division']
 words
-['ccharp19276036', 'ccharp23741092', 'ccharp48497812', 'ccharp23889748', 'ccharp56314868', 'ccharp29790612', 'ccharp48439060', 'ccharp21080452', 'ccharp42277604', 'ccharp34507012']
+['reports', 'support', 'federal', 'increase', 'northern', 'approach', 'offices', 'review', 'program', 'sun']
 
 
 
 
-[[1.7763568394002505e-15, set(['ccharp38937972'])], [1.7763568394002505e-15, set(['ccharp97121508'])], [1.7763568394002505e-15, set(['ccharp47321556'])], [1.7763568394002505e-15, set(['ccharp48382820'])], [1.7763568394002505e-15, set(['ccharp49461140'])], [1.7763568394002505e-15, set(['ccharp44857636'])], [1.7763568394002505e-15, set(['ccharp20177540'])], [1.7763568394002505e-15, set(['ccharp21409684'])], [1.7763568394002505e-15, set(['ccharp22116244'])], [1.7763568394002505e-15, set(['ccharp21032580'])]]
-[[ 103.    0.    0.    0.    0.]
- [ 103.    0.    0.    0.    0.]
- [ 103.    0.    0.    0.    0.]
- [ 103.    0.    0.    0.    0.]
- [ 103.    0.    0.    0.    0.]]
+Accuracy per Label
+
+0.197368421053
+0.211538461538
+0.138888888889
+0.176470588235
+0.239436619718
+Total Accuracy
+0.192307692308
+
+
+[[ 15.  22.   5.   9.  17.]
+ [ 18.  21.   9.   9.  11.]
+ [ 12.  18.   6.  16.  16.]
+ [ 18.  21.   7.   9.  13.]
+ [ 13.  22.   9.   8.  14.]]

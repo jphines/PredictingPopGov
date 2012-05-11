@@ -1,20 +1,30 @@
 words
-['ccharp29137412', 'ccharp29398308', 'ccharp29449076', 'ccharp29774212', 'ccharp29157924', 'ccharp29372612', 'ccharp29288308', 'ccharp32609972', 'ccharp29442340']
+['endorse', 'end', 'ending', 'endangered', 'encourages', 'enable', 'endogenous', 'encyclopedia', 'endocannabinoid']
 words
-['ccharp47230100', 'ccharp32159732', 'ccharp40881252', 'ccharp57155828', 'ccharp22111988', 'ccharp61810212', 'ccharp41835780', 'ccharp34902564', 'ccharp22259828', 'ccharp22086548']
+['relationships', 'information', '12', 'health', 'services', 'baltimore', 'march', 'including', 'center', 'biology']
 words
-['ccharp21382500', 'ccharp41023636', 'ccharp20541780', 'ccharp106184756', 'ccharp42298260', 'ccharp19803364', 'ccharp52650900', 'ccharp20901076', 'ccharp42215876', 'ccharp51906900']
+['red', 'med', 'current', 'navigation', 'medical', 'period', 'congress', 'park', 'back', 'department']
 words
-['ccharp29398308', 'ccharp46644276', 'ccharp22078164', 'ccharp46292020', 'ccharp34590212', 'ccharp205579956', 'ccharp43810132', 'ccharp20551060', 'ccharp43979140', 'ccharp20212628']
+['human', 'professional', 'share', 'falls', 'versus', 'systems', 'event', 'health', 'day', 'center']
 words
-['ccharp19762004', 'ccharp43766900', 'ccharp19276036', 'ccharp59230292', 'ccharp98062100', 'ccharp45305300', 'ccharp63510148', 'ccharp22415140', 'ccharp66707300', 'ccharp51646948']
+['internet', 'make', '10', 'mission', 'federal', 'march', '300', 'library', 'facebook', 'official']
 
 
 
 
-[[0.0020010006671657976, set(['ccharp34421588'])], [0.0020010006671657976, set(['ccharp44469444'])], [0.0020010006671657976, set(['ccharp63630020'])], [0.0020010006671657976, set(['ccharp44681396'])], [0.0020010006671657976, set(['ccharp38243460'])], [0.0020010006671657976, set(['ccharp57199876'])], [0.0020010006671657976, set(['ccharp37292404'])], [0.0020010006671657976, set(['ccharp28662708'])], [0.0020010006671657976, set(['ccharp28698196'])], [0.0020010006671657976, set(['ccharp29962644'])]]
-[[  0.   0.   0.   0.  30.]
- [  0.   0.   0.   0.  30.]
- [  0.   0.   0.   0.  30.]
- [  0.   0.   0.   0.  30.]
- [  0.   0.   0.   0.  28.]]
+Accuracy per Label
+
+0.0833333333333
+0.428571428571
+0.0909090909091
+0.1875
+0.285714285714
+Total Accuracy
+0.202127659574
+
+
+[[  1.   6.   2.   6.   4.]
+ [  5.   2.   7.   3.   2.]
+ [  2.   2.   4.   8.   3.]
+ [  2.   1.   3.  10.   3.]
+ [  2.   3.   6.   5.   2.]]

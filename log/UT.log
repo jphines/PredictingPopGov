@@ -1,20 +1,30 @@
 words
-['ccharp29917124', 'ccharp30547828', 'ccharp30539444', 'ccharp29117812', 'ccharp30165412', 'ccharp30162484', 'ccharp30030100', 'ccharp29774212', 'ccharp29734004']
+['endorsed', 'endurancetrained', 'endorse', 'endangered', 'end', 'endocrinol', 'endowment', 'endorsement', 'ended']
 words
-['ccharp54847284', 'ccharp43734084', 'ccharp43064036', 'ccharp20520484', 'ccharp32159732', 'ccharp21085092', 'ccharp43719236', 'ccharp27454964', 'ccharp32633092', 'ccharp59482500']
+['city', 'states', 'information', 'projects', 'read', 'low', 'twisted', 'report', 'pm', 'united']
 words
-['ccharp54800020', 'ccharp30539444', 'ccharp43986292', 'ccharp51752340', 'ccharp53502500', 'ccharp58158884', 'ccharp57634196', 'ccharp21418660', 'ccharp53072132', 'ccharp44090660']
+['contained', 'uiheaderbackground', 'addthisconfig', 'pictured', 'human', 'exercise', 'consistent', 'servicesexclude', 'uiheadercolor', 'var']
 words
-['ccharp27891828', 'ccharp26942356', 'ccharp107939828', 'ccharp22937268', 'ccharp50524180', 'ccharp24491796', 'ccharp48248004', 'ccharp45122180', 'ccharp27949860', 'ccharp27447252']
+['uiheaderbackground', 'streetboulder', 'email', 'favorites', 'uicobrand', 'emergency911', 'feb', '6a1a18', 'uiheadercolor', 'twitter']
 words
-['ccharp44339268', 'ccharp43832308', 'ccharp41357668', 'ccharp46454404', 'ccharp44108948', 'ccharp51452244', 'ccharp30165412', 'ccharp52943700', 'ccharp43853636', 'ccharp21159540']
+['data', 'city', 'states', 'community', 'email', 'nutrition', 'privacy', 'human', 'navigation', 'united']
 
 
 
 
-[[0.0010005003335820106, set(['ccharp18484212'])], [0.0010005003335820106, set(['ccharp23690260'])], [0.0010005003335820106, set(['ccharp56778996'])], [0.0010005003335820106, set(['ccharp18175684'])], [0.0010005003335820106, set(['ccharp43653956'])], [0.0010005003335820106, set(['ccharp31851556'])], [0.0010005003335820106, set(['ccharp51640676'])], [0.0010005003335820106, set(['ccharp43011076'])], [0.0010005003335820106, set(['ccharp21164500'])], [0.0010005003335820106, set(['ccharp21264340'])]]
-[[  0.   0.   0.   0.  59.]
- [  0.   0.   0.   0.  59.]
- [  0.   0.   0.   0.  59.]
- [  0.   0.   0.   0.  59.]
- [  0.   0.   0.   0.  59.]]
+Accuracy per Label
+
+0.217391304348
+0.209302325581
+0.142857142857
+0.222222222222
+0.205882352941
+Total Accuracy
+0.170103092784
+
+
+[[ 10.   9.   5.   8.   7.]
+ [  8.   3.   8.  11.   9.]
+ [ 12.  12.   6.   4.   5.]
+ [  9.   6.   9.   8.   7.]
+ [  7.  13.   7.   5.   6.]]

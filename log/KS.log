@@ -1,20 +1,30 @@
 words
-['ccharp29854980', 'ccharp29502756', 'ccharp29784356', 'ccharp29897284', 'ccharp29962644', 'ccharp30030100', 'ccharp29774212', 'ccharp29667476', 'ccharp29442340']
+['entering', 'entire', 'financing', 'entered', 'enslavement', 'enter', 'ensure', 'entitlement', 'ensign']
 words
-['ccharp21382500', 'ccharp24020932', 'ccharp22891428', 'ccharp43820884', 'ccharp37283076', 'ccharp18951540', 'ccharp62008084', 'ccharp63331540', 'ccharp19394356', 'ccharp21323412']
+['energy', 'complete', 'hours', 'emergency', 'force', 'features', 'make', 'sharp', 'inmate', 'patients']
 words
-['ccharp21576148', 'ccharp22370772', 'ccharp42919860', 'ccharp22114724', 'ccharp30222964', 'ccharp42943876', 'ccharp42855716', 'ccharp51628500', 'ccharp41797220', 'ccharp49305492']
+['2', 'image', 'discover', 'professional', 'start', 'robert', 'fascinating', 'throat', '1', 'universe']
 words
-['ccharp20360964', 'ccharp39425540', 'ccharp20539684', 'ccharp58282132', 'ccharp41535764', 'ccharp20376132', 'ccharp55376900', 'ccharp34047924', 'ccharp20707588', 'ccharp61798852']
+['discover', 'professional', 'astronomer', 'photograph', 'fascinating', 'cosmos', 'explanation', 'apod', 'written', 'universe']
 words
-['ccharp214388516', 'ccharp52298596', 'ccharp49916724', 'ccharp33285652', 'ccharp39830628', 'ccharp28992244', 'ccharp22940708', 'ccharp28869748', 'ccharp19163284', 'ccharp44268724']
+['internet', 'congress', 'official', 'professional', '21', '22', 'path', 'earth', 'spacecraft', 'files']
 
 
 
 
-[[0.0010005003335820106, set(['ccharp45504596'])], [0.0010005003335820106, set(['ccharp38037668'])], [0.0010005003335820106, set(['ccharp23690340'])], [0.0010005003335820106, set(['ccharp17002628'])], [0.0010005003335820106, set(['ccharp47407268'])], [0.0010005003335820106, set(['ccharp23777092'])], [0.0010005003335820106, set(['ccharp36901604'])], [0.0010005003335820106, set(['ccharp49462644'])], [0.0010005003335820106, set(['ccharp65455812'])], [0.0010005003335820106, set(['ccharp46574372'])]]
-[[  0.   0.   0.   0.  63.]
- [  0.   0.   0.   0.  63.]
- [  0.   0.   0.   0.  63.]
- [  0.   0.   0.   0.  63.]
- [  0.   0.   0.   0.  61.]]
+Accuracy per Label
+
+0.245614035088
+0.115384615385
+0.3
+0.153846153846
+0.176470588235
+Total Accuracy
+0.236180904523
+
+
+[[ 14.   3.   9.   8.   6.]
+ [ 10.   9.   7.  12.   2.]
+ [  8.   6.   5.  14.   7.]
+ [ 11.   7.   4.   9.   9.]
+ [ 14.   1.   5.   9.  10.]]

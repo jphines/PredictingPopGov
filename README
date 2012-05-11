@@ -1,0 +1,15 @@
+Predicting Popular Government, an analys is of states
+
+By Justin Hines
+
+This is a final project for Data Driven Modeling taught by Jake Hofman.
+
+This project aims to predict the popularity of governemntal articles using a multi-class bernoulli naive bayes classifier.
+
+Run make to download the dataset, filter, and apply the classifier. Results will be stored in log/.  All tsv data sets will be in tsv organized by dstate.  Final filtered tsvs will be in tsv/{STATE}/tsvs/
+
+Run make bayes to run the bayes classifier on a dataset, or python bayes.py in the src/ directory.
+
+The final report is included in docs/
+
+

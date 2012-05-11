@@ -1,20 +1,30 @@
 words
-['ccharp29906356', 'ccharp29927684', 'ccharp29882084', 'ccharp29854980', 'ccharp29363700', 'ccharp29790612', 'ccharp29933572', 'ccharp29774212', 'ccharp29734004']
+['edsa', 'edmundscom', 'edition', 'editions', 'editorial', 'educations', 'editors', 'edison', 'edith']
 words
-['ccharp55147556', 'ccharp21264340', 'ccharp43638804', 'ccharp21236164', 'ccharp38853460', 'ccharp52127444', 'ccharp51809892', 'ccharp42990676', 'ccharp21389044', 'ccharp33286372']
+['side', 'solstice', 'visible', 'cassini', '1', 'college', 'period', 'samples', 'mission', 'modifications']
 words
-['ccharp59979060', 'ccharp20529444', 'ccharp38811492', 'ccharp34384980', 'ccharp43935124', 'ccharp48805428', 'ccharp20306180', 'ccharp43989044', 'ccharp20278484', 'ccharp34417860']
+['standard', 'surface', 'group', '4', 'response', '1', 'agency', 'planning', 'local', 'ability']
 words
-['ccharp38914548', 'ccharp33207892', 'ccharp21457972', 'ccharp32984436', 'ccharp21386324', 'ccharp21298916', 'ccharp27898500', 'ccharp53400116', 'ccharp57145044', 'ccharp55216260']
+['90', 'individuals', 'produced', 'face', 'date', 'potential', 'late', 'pm', 'made', 'year']
 words
-['ccharp29906356', 'ccharp68408468', 'ccharp34582276', 'ccharp59230292', 'ccharp55249620', 'ccharp44227540', 'ccharp44094756', 'ccharp48846468', 'ccharp42508132', 'ccharp30030100']
+['sign', 'obama', 'community', 'message', 'document', 'grant', 'president', 'tour', '1', 'mission']
 
 
 
 
-[[1.7763568394002505e-15, set(['ccharp32981028'])], [1.7763568394002505e-15, set(['ccharp40323524'])], [1.7763568394002505e-15, set(['ccharp49243316'])], [1.7763568394002505e-15, set(['ccharp30623892'])], [1.7763568394002505e-15, set(['ccharp43114404'])], [1.7763568394002505e-15, set(['ccharp63618500'])], [1.7763568394002505e-15, set(['ccharp34377204'])], [1.7763568394002505e-15, set(['ccharp39203668'])], [1.7763568394002505e-15, set(['ccharp52604900'])], [1.7763568394002505e-15, set(['ccharp39132420'])]]
-[[ 96.   0.   0.   0.   0.]
- [ 96.   0.   0.   0.   0.]
- [ 96.   0.   0.   0.   0.]
- [ 96.   0.   0.   0.   0.]
- [ 96.   0.   0.   0.   0.]]
+Accuracy per Label
+
+0.229166666667
+0.244444444444
+0.173333333333
+0.207792207792
+0.180722891566
+Total Accuracy
+0.253048780488
+
+
+[[ 11.  11.  13.  16.  15.]
+ [  8.  12.  13.  15.  18.]
+ [  7.   8.  20.  18.  13.]
+ [ 11.   8.  14.  18.  15.]
+ [ 11.   6.  15.  10.  22.]]

@@ -1,20 +1,30 @@
 words
-['ccharp42942292', 'ccharp43660436', 'ccharp42788948', 'ccharp42301236', 'ccharp42932964', 'ccharp74752836', 'ccharp42837924', 'ccharp43222964', 'ccharp103175380', 'ccharp74391124']
+['edgar', 'economy', 'ed', 'ecosystems', 'ect', 'ecosystem', 'ecuador', 'edge', 'edd']
 words
-['ccharp30789124', 'ccharp31161956', 'ccharp30866180', 'ccharp30729700', 'ccharp32100148', 'ccharp31542772', 'ccharp30882740', 'ccharp31520948', 'ccharp30808884']
+['responsible', 'reported', 'httpwwwwhitehousegovvideo', 'comments', 'ondemand', 'sector', 'risk', 'activity', 'northern', 'planning']
 words
-['ccharp62547540', 'ccharp49462644', 'ccharp23311508', 'ccharp43797428', 'ccharp20044068', 'ccharp23291604', 'ccharp61446708', 'ccharp23590420', 'ccharp43813908', 'ccharp23294020']
+['encourage', 'responsible', 'training', 'city', 'process', 'status', 'activity', 'workers', 'called', 'member']
 words
-['ccharp46675476', 'ccharp44747268', 'ccharp46644996', 'ccharp46889092', 'ccharp45418868', 'ccharp45305300', 'ccharp47108772', 'ccharp42216100', 'ccharp68861828', 'ccharp46354420']
+['parents', 'code', 'discussion', 'ii', 'bill', 'iii', 'george', 'georgia', 'planning', 'member']
 words
-['ccharp24594132', 'ccharp48743604', 'ccharp24639572', 'ccharp49345652', 'ccharp26978180', 'ccharp48518244', 'ccharp48365716', 'ccharp48718644', 'ccharp24000660', 'ccharp24582356']
+['picks', '2011', 'usda', 'agricultural', 'years', 'order', 'submitted', 'dealing', 'areas', 'percent']
 
 
 
 
-[[0.0010005003335802343, set(['ccharp62208772'])], [0.0010005003335802343, set(['ccharp23274820'])], [0.0010005003335802343, set(['ccharp85831700'])], [0.0010005003335802343, set(['ccharp62793012'])], [0.0010005003335802343, set(['ccharp19541444'])], [0.0010005003335802343, set(['ccharp68406404'])], [0.0010005003335802343, set(['ccharp52952084'])], [0.0010005003335802343, set(['ccharp48580596'])], [0.0010005003335802343, set(['ccharp45173636'])], [0.0010005003335802343, set(['ccharp34035332'])]]
-[[   0.    0.    0.    0.  143.]
- [   0.    0.    0.    0.  143.]
- [   0.    0.    0.    0.  143.]
- [   0.    0.    0.    0.  143.]
- [   0.    0.    0.    0.  143.]]
+Accuracy per Label
+
+0.235294117647
+0.215909090909
+0.181818181818
+0.193548387097
+0.183486238532
+Total Accuracy
+0.246220302376
+
+
+[[ 20.  19.  16.  18.  20.]
+ [ 15.  25.  12.  20.  21.]
+ [ 18.  18.  21.  14.  22.]
+ [ 15.  16.  24.  20.  18.]
+ [ 17.  10.  15.  21.  28.]]

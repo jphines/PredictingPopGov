@@ -2,7 +2,7 @@ all: data bayes
 
 data:
 	cd src/
-	python listings.py
+	python listing.py
 	python organize.py
 	python scrubber.py jan1
 	python scrubber.py jan2
@@ -32,5 +32,6 @@ data:
 	python compress.py
 	python delete.py
 
-classifiy:
-	python main.py
+bayes:
+	cd src
+	python bayes.py

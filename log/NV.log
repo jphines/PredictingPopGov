@@ -1,20 +1,30 @@
 words
-['ccharp28890356', 'ccharp28920196', 'ccharp29060948', 'ccharp29363700', 'ccharp29034884', 'ccharp29009044', 'ccharp29224692', 'ccharp29069668', 'ccharp29288308']
+['encourage', 'encountering', 'enceladus', 'encino', 'encyclopedia', 'encountered', 'encke', 'encounter', 'encouraged']
 words
-['ccharp118731220', 'ccharp49091188', 'ccharp49543524', 'ccharp23562596', 'ccharp50377140', 'ccharp46466740', 'ccharp48478260', 'ccharp24022372', 'ccharp23899748', 'ccharp23261428']
+['2010', 'fascinating', 'order', 'death', 'committee', 'bar', 'park', 'access', 'navigation', 'wilderness']
 words
-['ccharp19387220', 'ccharp44725668', 'ccharp24153924', 'ccharp44829524', 'ccharp23278036', 'ccharp36498596', 'ccharp29034884', 'ccharp36731620', 'ccharp21148276', 'ccharp18832532']
+['fascinating', 'professional', 'astronomer', 'photograph', 'featured', 'cosmos', '30', 'explanation', 'officer', 'written']
 words
-['ccharp29447620', 'ccharp62002148', 'ccharp35088996', 'ccharp29224692', 'ccharp36269188', 'ccharp64221556', 'ccharp67255748', 'ccharp23282676', 'ccharp57301748', 'ccharp51646948']
+['science', 'shows', 'professional', 'astronomer', 'photograph', 'featured', 'cosmos', 'explanation', 'written', 'universe']
 words
-['ccharp18753476', 'ccharp21298516', 'ccharp68408468', 'ccharp24639572', 'ccharp18674420', 'ccharp53497460', 'ccharp43984820', 'ccharp18735652', 'ccharp20378580', 'ccharp18764756']
+['fascinating', 'professional', 'death', 'business', 'photograph', 'effect', 'featured', 'cosmos', 'written', 'inmate']
 
 
 
 
-[[1.7763568394002505e-15, set(['ccharp53665748'])], [1.7763568394002505e-15, set(['ccharp67862980'])], [1.7763568394002505e-15, set(['ccharp47737700'])], [1.7763568394002505e-15, set(['ccharp44839892'])], [1.7763568394002505e-15, set(['ccharp24695124'])], [1.7763568394002505e-15, set(['ccharp40803732'])], [1.7763568394002505e-15, set(['ccharp97105892'])], [1.7763568394002505e-15, set(['ccharp51750244'])], [1.7763568394002505e-15, set(['ccharp39112276'])], [1.7763568394002505e-15, set(['ccharp33380868'])]]
-[[ 53.   0.   0.   0.   0.]
- [ 53.   0.   0.   0.   0.]
- [ 53.   0.   0.   0.   0.]
- [ 53.   0.   0.   0.   0.]
- [ 52.   0.   0.   0.   0.]]
+Accuracy per Label
+
+0.130434782609
+0.275862068966
+0.196721311475
+0.257142857143
+0.129032258065
+Total Accuracy
+0.189944134078
+
+
+[[  3.   8.  12.   9.   4.]
+ [  7.   4.  12.   6.   7.]
+ [  4.  10.   9.   8.   5.]
+ [  4.   4.  17.   7.   4.]
+ [  5.   3.  11.   5.  11.]]

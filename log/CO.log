@@ -1,20 +1,30 @@
 words
-['ccharp29868052', 'ccharp29412116', 'ccharp29906356', 'ccharp29378596', 'ccharp29886852', 'ccharp29790612', 'ccharp29933572', 'ccharp29774212', 'ccharp29442340']
+['elaine', 'elbow', 'elderly', 'el', 'ek', 'elected', 'elder', 'election', 'elachi']
 words
-['ccharp29868052', 'ccharp29412116', 'ccharp29906356', 'ccharp29378596', 'ccharp29886852', 'ccharp29790612', 'ccharp29933572', 'ccharp29774212', 'ccharp29442340']
+['elaine', 'elbow', 'elderly', 'el', 'ek', 'elected', 'elder', 'election', 'elachi']
 words
-['ccharp29069668', 'ccharp71420500', 'ccharp30843396', 'ccharp48400452', 'ccharp19111108', 'ccharp24593732', 'ccharp68073092', 'ccharp19212468', 'ccharp32716564', 'ccharp41855044']
+['regional', '2', 'australia', 'cold', 'grant', 'field', 'development', 'agricultural', 'ny', 'faqs']
 words
-['ccharp41851716', 'ccharp19627636', 'ccharp34034692', 'ccharp67548580', 'ccharp48581988', 'ccharp44292116', 'ccharp21239108', 'ccharp41865476', 'ccharp41879316', 'ccharp44285796']
+['2', 'res', 'early', '240', 'august', '23', 'development', 'ice', 'legal', 'reasons']
 words
-['ccharp46161988', 'ccharp27804004', 'ccharp48439060', 'ccharp26968164', 'ccharp39112276', 'ccharp18735652', 'ccharp18764756', 'ccharp25118868', 'ccharp26978180', 'ccharp27522276']
+['st', 'forests', 'months', 'change', 'americas', 'front', 'council', 'specific', '9', 'leaving']
 
 
 
 
-[[0.0020010006671640213, set(['ccharp91942004'])], [0.0020010006671640213, set(['ccharp42941972'])], [0.0020010006671640213, set(['ccharp21847604'])], [0.0020010006671640213, set(['ccharp70640484'])], [0.0020010006671640213, set(['ccharp22824484'])], [0.0020010006671640213, set(['ccharp78973988'])], [0.0020010006671640213, set(['ccharp44670164'])], [0.0020010006671640213, set(['ccharp63668132'])], [0.0020010006671640213, set(['ccharp55124724'])], [0.0020010006671640213, set(['ccharp29157924'])]]
-[[   0.    0.    0.    0.  120.]
- [   0.    0.    0.    0.  120.]
- [   0.    0.    0.    0.  120.]
- [   0.    0.    0.    0.  120.]
- [   0.    0.    0.    0.  119.]]
+Accuracy per Label
+
+0.206896551724
+0.178861788618
+0.161764705882
+0.25
+0.211764705882
+Total Accuracy
+0.214634146341
+
+
+[[ 12.  22.  11.  19.  18.]
+ [ 13.  23.  13.  11.  22.]
+ [ 12.  29.  14.  12.  15.]
+ [ 12.  25.  16.  19.  10.]
+ [  9.  24.  14.  15.  20.]]

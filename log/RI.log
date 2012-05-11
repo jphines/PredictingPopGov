@@ -1,20 +1,30 @@
 words
-['ccharp29643604', 'ccharp29927684', 'ccharp29762068', 'ccharp29844612', 'ccharp29259860', 'ccharp29398308', 'ccharp29689924', 'ccharp29774212', 'ccharp29442340']
+['employees', 'enabled', 'enacted', 'encyclopedias', 'employer', 'employee', 'employed', 'encke', 'employment']
 words
-['ccharp50929988', 'ccharp42300036', 'ccharp35500452', 'ccharp62997684', 'ccharp44380116', 'ccharp53968100', 'ccharp44356932', 'ccharp42693492', 'ccharp72515540', 'ccharp35484996']
+['earth', 'website', '60', 'follow', 'event', '35', 'day', 'privacy', 'sky', 'official']
 words
-['ccharp120068532', 'ccharp56385828', 'ccharp57337492', 'ccharp50514596', 'ccharp54410212', 'ccharp51663924', 'ccharp44096884', 'ccharp22117188', 'ccharp22114084', 'ccharp21126852']
+['attorney', 'general', 'full', 'research', 'decision', 'sports', 'body', 'day', 'increased', 'chronic']
 words
-['ccharp19186420', 'ccharp41535764', 'ccharp44469444', 'ccharp52128724', 'ccharp19092516', 'ccharp42301236', 'ccharp44625284', 'ccharp23946516', 'ccharp44528932', 'ccharp20442548']
+['visible', 'top', 'images', 'general', 'online', 'raimondo', 'gina', 'police', '7', 'details']
 words
-['ccharp41851716', 'ccharp34582276', 'ccharp19582868', 'ccharp29762068', 'ccharp27804004', 'ccharp34750932', 'ccharp67282484', 'ccharp32609972', 'ccharp19047300', 'ccharp19091364']
+['reports', 'attorney', 'island', 'children', 'event', 'activity', 'close', 'rhode', 'centers', 'day']
 
 
 
 
-[[0.0, set(['ccharp42982820'])], [0.0, set(['ccharp35662084'])], [0.0, set(['ccharp57155828'])], [0.0, set(['ccharp57219380'])], [0.0, set(['ccharp49365172'])], [0.0, set(['ccharp13551188'])], [0.0, set(['ccharp23777092'])], [0.0, set(['ccharp39112276'])], [0.0, set(['ccharp40803732'])], [0.0, set(['ccharp49058964'])]]
-[[ 38.   0.   0.   0.   0.]
- [ 38.   0.   0.   0.   0.]
- [ 38.   0.   0.   0.   0.]
- [ 38.   0.   0.   0.   0.]
- [ 38.   0.   0.   0.   0.]]
+Accuracy per Label
+
+0.263157894737
+0.157894736842
+0.157894736842
+0.208333333333
+0.260869565217
+Total Accuracy
+0.227642276423
+
+
+[[  5.   6.   3.   5.   6.]
+ [  5.  10.   2.   5.   3.]
+ [  3.   5.   4.   6.   7.]
+ [  1.  11.   5.   5.   3.]
+ [  5.   6.   5.   3.   4.]]
