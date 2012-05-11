@@ -54,7 +54,7 @@ def main():
         else:
           d[hash] = {}
           d[hash]['a'] = content
-          d[hash]['c'] = 0
+          d[hash]['c'] = 1 
       f.close()
     write_state(d, state)
 

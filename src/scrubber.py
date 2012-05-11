@@ -107,7 +107,7 @@ def main():
       else:
         if hash in d['global']:
           d[location][hash] = {}
-          d[location][hash]['c'] = ctypes.c_char_p(d['global'][hash]['c'])
+          d[location][hash]['c'] = d['global'][hash]['c']
           d[location][hash]['l'] = 1
           d['global'][hash]['l'] += 1
         else:
@@ -121,7 +121,7 @@ def main():
           d['global'][hash]['l'] = 1
           d['global'][hash]['c'] = content 
           d[location][hash]['l'] = 1
-          d[location][hash]['c'] = ctypes.c_char_p(d['global'][hash]['c'])
+          d[location][hash]['c'] = content 
   write_states(d)
 
 
