@@ -5,7 +5,7 @@ import csv
 import math
 states = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NC', 'NE', 'NH', 'NV', 'NJ', 'NM', 'NY', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'WA', 'WV', 'WI', 'WY', 'global']
 
-files = ['jan1','jan2','jan3','jan4','jan5','jan6','feb1','feb2','feb3','feb4','feb5','feb6','mar1','mar2','mar3','mar4','mar5','mar6','apr1','apr2','apr3','apr5','apr6']
+files = ['jan1','jan2','jan3','jan4','jan5','feb1','feb4','feb5','mar1','mar2','mar3','mar4','mar5','apr1','apr5']
 
 path = '../tsv/' 
 
@@ -36,6 +36,7 @@ def write_state(d, state):
     for l in list:
       clicks = l[1]
       hash = l[0]
+      print clicks
       content = d[hash]['a']
       state_writer.writerow([hash, clicks, state, content])
     f.close()

@@ -5,11 +5,13 @@ import math
 import random
 import time
 import sys
-
+#import matplotlib.pyplot as plt 
 states = ['AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NC', 'NE', 'NH', 'NV', 'NJ', 'NM', 'NY', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VA', 'WA', 'WV', 'WI', 'WY', 'global']
 
 files = ['low','medium','high','popular','insane']
 path = '../tsv/'
+acc_list = []
+CURRENT_STATE = ""
 
 def load_document(section, state):
     reader = csv.reader(open(path + state + '/tsvs/' + section + ".tsv", 'rb'), delimiter='\t')
@@ -118,11 +120,19 @@ def predict(weights, test_list, dictionary):
             confusion[sect_cnt][max_index] += 1
         sect_cnt += 1
     print "\n"
-    print queue
+    accuracy = confusion.trace(offset=0)/confusion.sum()
+    count = 0
+    print "Accuracy per Label\n"
+    for i in confusion.transpose():
+      print i[count]/i.sum()
+    acc_list.append(accuracy)
+    print "Total Accuracy"
+    print accuracy
+    print "\n"
     return confusion
 
 
-def worker(state):
+def worker(state, alpha, beta):
     loaded_sections = []
     for file in files:
         loaded_sections.append(load_document(file, state))
@@ -131,7 +141,7 @@ def worker(state):
     sparses = []
     for section in sets[0]:
         sparses.append(make_sparse_matrix(section, dictionary))
-    weights = train(sparses, len(dictionary[0]), 3, 1, 1000)
+    weights = train(sparses, len(dictionary[0]), alpha, beta, 1000)
     words(weights, dictionary)
     print "\n"
     print predict(weights, sets[1], dictionary)
@@ -154,14 +164,29 @@ def words(weights, dictionary):
         print "words"
         print words
 
-def main():
+def main(alpha, beta):
     for state in states:
-        out = open('../log/'+state+'.log', 'w')
+        global CURRENT_STATE 
+        CURRENT_STATE = state
+        out = open('../docs/report.tex', 'wa')
         sys.stdout = out
-        worker(state)
+        worker(state, alpha, beta)
+        #graph()
 
+'''
+def graph():
+    N = 51
+    ind = np.arange(N)
+    width = .2
+    rects = fig.bar(ind, tuple(acc_list), width, color = 'r')
+    fig.set_ylabel('Accuracy')
+    fig.set_title('Accuracy grouped by state')
+    fig.set_xticks(ind+width)
+    fig.set_xticklabels(tuple(states))
+    plot.show()
+'''
 if __name__ == "__main__":
-    start = time.time()
-    main()
-    elapsed = time.time() - start
-    print elapsed
+  if len(sys.argv) > 2:
+    main(sys.argv[1], sys.argv[2])
+  else:
+    main(4,3)
